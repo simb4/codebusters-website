@@ -1,0 +1,185 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: Georgia, "Times New Roman", Times, Montserrat, serif;
+  color: #000;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+
+/*
+ * HEADER/header
+ */
+.cb-header {
+  padding: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 18px;
+  height: 120px;
+}
+.cb-header > div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.cb-logo {
+  float: left;
+}
+.cb-navs {
+  float: right;
+}
+
+/* Nav links */
+.cb-nav-item {
+  padding-bottom: 5px;
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+  font-style: bold;
+  font-weight: 900;
+  color: #000;
+  border-bottom: 3px solid #fff;
+}
+.cb-nav-item:hover,
+.cb-nav-item:focus {
+  color: rgba(0,0,0,0.8);
+  text-decoration: none;
+}
+/* Active state gets a caret at the bottom */
+.cb-nav-item.active {
+  border-color: #000;
+}
+
+/*
+ * Main column and sidebar layout
+ */
+
+.cb-main {
+  font-size: 18px;
+  padding: 0;
+  margin-bottom: 200px;
+}
+
+/* Sidebar modules for boxing content */
+.cb-sidebar {
+  padding: 0;
+  position: absolute;
+}
+#sidebar.stick {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+#sidebar.at-bottom {
+  bottom: 0;
+}
+.cb-sidebar-section {
+  padding: 29px 0px;
+  widows: 100%;
+}
+.cb-sidebar-section a {
+  line-height: 22px;
+  font-size: 18px;
+  font-style: medium;
+  color: rgba(0,0,0,0.4);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.cb-sidebar-section.active a {
+  color: #000;
+}
+
+/*
+ * Blog posts
+ */
+
+.cb-post {
+  margin-bottom: 60px;
+}
+.cb-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.cb-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.cb-footer {
+  z-index: 1000;
+  padding: 65px 0;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
+.cb-footer-section {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+}
+.cb-footer-section img {
+  display: block;
+}
+.cb-footer-section div {
+  display: block;
+}
+.cb-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-city-text {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.contact-hint-text {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808080;
+}
+.contact-button {
+  margin-top: 16px;
+}
+.contact-button button{
+  text-transform: uppercase;
+  float: left;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  font-size: 18px;
+  line-height: 22px;
+  font-style: bold;
+  font-weight: 600;
+  padding: 12px 18px;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+}
