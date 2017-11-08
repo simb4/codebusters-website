@@ -121,12 +121,12 @@ div[class*="col-"] {
 
 .cb-main-section {
   overflow: auto;
+  margin-bottom: 128px;
 }
 
 /* about */
 .cb-main-section .about1,
-.cb-main-section .about2,
-.cb-main-section .about3{
+.cb-main-section .about2{
   margin-bottom: 128px;
 }
 #about img {
@@ -172,6 +172,7 @@ div[class*="col-"] {
   margin-left: 20%;
   margin-right: 0;
   width: 80%;
+  margin-bottom: 160px;
 }
 .service-section {
   width: 100%;
@@ -180,20 +181,80 @@ div[class*="col-"] {
 .subsection {
   width: 50%;
   flex: 1;
+  display: flex;
+  justify-content: center; /* align horizontal */
 }
 .subsection-text {
-  padding: 64px;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .subsection-text .title {
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 24px;
 }
+/* team */
+.team-grid {
+  box-sizing: border-box;
+}
+div[class*="col-"].team-col {
+  box-sizing: border-box;
+  width: 33.333%;
+}
+.team-col .box {
+  position: relative;
+  width: 100%;
+  padding-bottom: 24px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.team-col:first-child .box {
+  padding-bottom: 24px;
+  padding-right: 16px;
+  padding-left: 0px;
+}
+.team-col:last-child .box {
+  padding-bottom: 24px;
+  padding-right: 0px;
+  padding-left: 16px;
+}
+
+.team-col .box:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.team-col .box .content {
+  padding: 24px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  left: 8px;
+  top: 0;
+  right: 8px;
+  bottom: 24px;
+}
+.team-col:first-child .box .content {
+  left: 0px;
+  right: 16px;
+}
+.team-col:last-child .box .content {
+  left: 16px;
+  right: 0px;
+}
+
+.box-name {
+  font-size: 32px;
+}
 
 
 /*
  * Footer
- */
+ 
 .cb-footer {
   z-index: 1000;
   padding: 65px 0;
