@@ -93,14 +93,13 @@ div[class*="col-"] {
 .cb-sidebar-section a {
   line-height: 22px;
   font-size: 18px;
-  font-style: medium;
+  font-weight: 600;
   color: rgba(0,0,0,0.4);
   text-decoration: none;
   text-transform: uppercase;
 }
 .cb-sidebar-section.active a {
   color: #000;
-  font-weight: 500;
 }
 
 /*
@@ -211,6 +210,8 @@ div[class*="col-"].team-col {
   padding-bottom: 24px;
   padding-right: 8px;
   padding-left: 8px;
+  transition: padding 0.23s linear;
+  transition: opacity 0.5s ease-out;
 }
 .team-col:first-child .box {
   padding-bottom: 24px;
@@ -228,11 +229,21 @@ div[class*="col-"].team-col {
   content: "";
   display: block;
   padding-top: 100%;
-  transition: padding 0.3s linear;
+  transition: padding 0.5s linear;
 }
-
 #team .box:hover:before {
   padding-top: calc(200% + 24px);
+}
+
+.box:hover + .box:before {
+  padding-top: 0;
+}
+.box:hover + .box {
+  padding: 0;
+  opacity: 0;
+}
+.box:hover + .box .content {
+  padding: 0;
 }
 
 /* specifying content */
@@ -240,8 +251,10 @@ div[class*="col-"].team-col {
   overflow: hidden;
   background-color: #000;
   color: #fff;
+
 }
 
+/* content layout */
 .team-col .box .content {
   padding: 24px;
   position: absolute;
@@ -258,6 +271,7 @@ div[class*="col-"].team-col {
   left: 16px;
   right: 0px;
 }
+
 #team .content .box-name {
   font-size: 32px;
   font-weight: 600;
@@ -271,7 +285,7 @@ div[class*="col-"].team-col {
   left: 24px;
   right: 24px;
   top: calc(100% - 124px);
-  transition: top 0.3s linear;
+  transition: top 0.5s linear;
 }
 #team .content:hover .box-name-title {
   top: 24px;
@@ -285,7 +299,7 @@ div[class*="col-"].team-col {
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.5s ease;
-  transition-delay: 0.3s;
+  transition-delay: 0.5s;
 }
 #team .content:hover .box-desc {
   visibility: visible;
@@ -440,7 +454,22 @@ div[class*="col-"].team-col {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .cb-header {
+    font-size: 14px;
+    height: 64px;
+    padding-top: 16px;
+  }
+  .cb-navs {
+    margin-top: 8px;
+  }
+  .cb-logo {
+    display: none;
+  }
+  .cb-logo-vert {
+    display: block;
+    max-width: 84px;
+  }
   .cb-main {
     font-size: 12px;
   }
@@ -502,15 +531,3 @@ div[class*="col-"].team-col {
   }
 }
 
-@media (max-width: 640px) {
-  .cb-header {
-    font-size: 14px;
-  }
-  .cb-logo {
-    display: none;
-  }
-  .cb-logo-vert {
-    display: block;
-    max-width: 84px;
-  }
-}
