@@ -11,7 +11,7 @@ body {
  * Override Bootstrap's default container.
  */
 
-
+h1, .h1{font-size: 48px;}
 div[class*="col-"] {
   padding-left: 0;
   padding-right: 0;
@@ -782,7 +782,7 @@ div[class*="col-"].team-col {
   #team .content:hover .box-desc {
     opacity: 0.8;
   }
-  
+
   /* clients and partners */
   #partners .content .box-name {
     font-size: 14px;
@@ -844,7 +844,7 @@ div[class*="col-"].team-col {
   .cb-footer {
     background-color: #F7F7F7;
     padding-top: 16px;
-    padding-bottom: 72px; 
+    padding-bottom: 72px;
   }
   .cb-footer .row {
     /*display: block;*/
@@ -1018,3 +1018,10 @@ div[class*="col-"].team-col {
 }
 
 
+/* index page styles */
+.project-links{position: absolute;left: 0;bottom: 80px;}
+.projects-list a{color: rgba(0,0,0,0.5);}
+.projects-list h1{font-weight: bold;margin: 0}
+.projects-list p{font-size: 24px;}
+.projects-list a:hover,
+.projects-list li.active a{color: rgba(0,0,0,1);text-decoration: none;}
