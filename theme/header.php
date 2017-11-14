@@ -14,8 +14,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-	<link href="<?php echo get_bloginfo( 'template_directory' );?>/style.css" rel="stylesheet">
-	<link href="<?php echo get_bloginfo( 'template_directory' );?>/material.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri();?>/style.css" rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri();?>/material.css" rel="stylesheet">
 <!--     <link href="style.css" rel="stylesheet">
     <link href="material.css" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:bold" rel="stylesheet">
@@ -50,10 +50,10 @@
   <div class="root">
     <div class="container cb-header" id="top">
       <div class="cb-logo">
-        <a href="#"><img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/cb-logo.svg" alt=""></img></a>
+        <a href="#"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.svg" alt=""></img></a>
       </div>
       <div class="cb-logo-vert">
-        <a href="#"><img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/cb-logo-vert.svg" alt=""></img></a>
+        <a href="#"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo-vert.svg" alt=""></img></a>
       </div>
       <div class="cb-navs">
         <a class="cb-nav-item" href="#">WORKS</a>
