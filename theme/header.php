@@ -50,10 +50,10 @@
   <div class="root">
     <div class="container cb-header" id="top">
       <div class="cb-logo">
-        <a href="#"><img class="fullwidth" src="img/cb-logo.svg" alt=""></img></a>
+        <a href="#"><img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/cb-logo.svg" alt=""></img></a>
       </div>
       <div class="cb-logo-vert">
-        <a href="#"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
+        <a href="#"><img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/cb-logo-vert.svg" alt=""></img></a>
       </div>
       <div class="cb-navs">
         <a class="cb-nav-item" href="#">WORKS</a>

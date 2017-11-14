@@ -1,5 +1,5 @@
     <div class="to-top">
-      <a href="#top"><img src="img/arrow-up.png" alt=""></img></a>
+      <a href="#top"><img src="<?php echo get_bloginfo( 'template_directory' );?>/img/arrow-up.png" alt=""></img></a>
     </div>
     <div class="container">
       <div class="row">
@@ -15,7 +15,7 @@
             <li class="cb-sidebar-section"><a href="#contacts">contacts</a></li>
           </ol>
           <div class="to-bottom">
-            <a href="#about"><img src="img/arrow-down.png" alt=""></img></a>
+            <a href="#about"><img src="<?php echo get_bloginfo( 'template_directory' );?>/img/arrow-down.png" alt=""></img></a>
           </div>
         </div><!-- /.cb-sidebar -->
         <div class="col-sm-offset-2 col-sm-10">
@@ -33,12 +33,12 @@
                   </p>
                 </div>
                 <div class="col-sm-5">
-                  <img src="img/about1.jpg" alt=""/>
+                  <img src="<?php echo get_bloginfo( 'template_directory' );?>/img/about1.jpg" alt=""/>
                 </div>
               </div>
               <div class="col-sm-12 about2">
                 <div class="col-sm-5">
-                  <img src="img/about1.jpg" alt=""/>
+                  <img src="<?php echo get_bloginfo( 'template_directory' );?>/img/about1.jpg" alt=""/>
                 </div>
                 <div class="col-sm-7">
                   <p class="section-text">Our team is cross-functionally balanced, with the best talents in development (backend, frontend, iOS, Android, DevOps, Big Data, etc.), advanced analytics, UI/UX design, product/project management and digital marketing strategy.
@@ -58,14 +58,14 @@
               <div class="main-section-title"> our services/ </div>
               <div class="service-section">
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_app.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/services_app.jpg" alt="" />
                 </div>
                 <div class="subsection">
                   <div class="subsection-text">
                     <input type="checkbox" id="menu-app"/>
                     <label for="menu-app" class="title">
                       App development
-                      <img class="icon" src="img/arrow-right.svg" alt="" />
+                      <img class="icon" src="<?php echo get_bloginfo( 'template_directory' );?>/img/arrow-right.svg" alt="" />
                     </label>
                     <p class="text"> We build native iOS and Android finest apps for all business requirements and user experience. </p>
                   </div>
@@ -78,26 +78,26 @@
                     <input type="checkbox" id="menu-web"/>
                     <label for="menu-web" class="title">
                       Web development
-                      <img class="icon" src="img/arrow-right.svg" alt="" />
+                      <img class="icon" src="<?php echo get_bloginfo( 'template_directory' );?>/img/arrow-right.svg" alt="" />
                     </label>
                     <p class="text"> We develop bespoke and in-house web systems for any business requirements, from SMB to enterprise and official government bodies. </p>
                   </div>
                 </div>
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_web.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/services_web.jpg" alt="" />
                 </div>
               </div>
 
               <div class="service-section">
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_ui.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/services_ui.jpg" alt="" />
                 </div>
                 <div class="subsection">
                   <div class="subsection-text">
                     <input type="checkbox" id="menu-ui"/>
                     <label for="menu-ui" class="title">
                       UI/UX design
-                      <img class="icon" src="img/arrow-right.svg" alt="" />
+                      <img class="icon" src="<?php echo get_bloginfo( 'template_directory' );?>/img/arrow-right.svg" alt="" />
                     </label>
                     <p class="text"> For web and app design process, we can help you to define the types of users who visit your business, where and how they will want to navigate to and what is the call of action. We can then plan user pathways with wireframing that supports clear messaging and an outstanding user experience. </p>
                   </div>
@@ -110,26 +110,26 @@
                     <input type="checkbox" id="menu-marketing"/>
                     <label for="menu-marketing" class="title">
                       Digital Marketing
-                      <img class="icon" src="img/arrow-right.svg" alt="" />
+                      <img class="icon" src="<?php echo get_bloginfo( 'template_directory' );?>/img/arrow-right.svg" alt="" />
                     </label>
                     <p class="text"> Your online presence might only be the first step. We can help to optimize your online marketing campaigns by getting the rights audience, implementing and triggering the right pixels, adjusting correct floodlight activities and analyzing the data. All this to build brand loyalty and deliver measurable results. </p>
                   </div>
                 </div>
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_marketing.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/services_marketing.jpg" alt="" />
                 </div>
               </div>
 
               <div class="service-section">
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_prototype.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/services_prototype.jpg" alt="" />
                 </div>
                 <div class="subsection">
                   <div class="subsection-text">
                     <input type="checkbox" id="menu-prototype"/>
                     <label for="menu-prototype" class="title">
                       Prototype
-                      <img class="icon" src="img/arrow-right.svg" alt="" />
+                      <img class="icon" src="<?php echo get_bloginfo( 'template_directory' );?>/img/arrow-right.svg" alt="" />
                     </label>
                     <p class="text"> We craft a prototype of your idea and bring it to life, which enables you to visualise your app or functional website to gain significant feedback from potential users. </p>
                   </div>
@@ -142,13 +142,13 @@
                     <input type="checkbox" id="menu-consulting"/>
                     <label for="menu-consulting" class="title">
                       Consulting
-                      <img class="icon" src="img/arrow-right.svg" alt="" />
+                      <img class="icon" src="<?php echo get_bloginfo( 'template_directory' );?>/img/arrow-right.svg" alt="" />
                     </label>
                     <p class="text"> Talk to us about your next big idea confidentially and we can accurately advise you on how to make the right approach and get your niche market. </p>
                   </div>
                 </div>
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_consulting.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_bloginfo( 'template_directory' );?>/img/services_consulting.jpg" alt="" />
                 </div>
               </div>
             </div>
