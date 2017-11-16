@@ -266,15 +266,70 @@ div[class*="col-"].team-col {
   background-color: #000;
   color: #fff;
 }
+/*simple team grid*/
+.members{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.members > div{
+  display: flex;
+  position: relative;
+  width: 33.33%;
+  padding-top: 33.33%;
+}
+.members > div:nth-child(3n+1) .member{
+  margin-right: 16px;
+}
+.members > div:nth-child(3n+2) .member{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.members > div:nth-child(3n) .member{
+  margin-left: 16px;
+}
+.member{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: (100%);
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  margin-bottom: 24px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.member h1{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.member span{
+  font-size: 18px;
+  color: rgba(255,255,255,.7);
+}
 
 /* content layout */
 .team-col .box .content {
-  padding: 24px;
+  /*padding: 24px;*/
   position: absolute;
   left: 8px;
   top: 0;
   right: 8px;
   bottom: 24px;
+}
+.team-col .box .content img{
+  height: 100%;
 }
 .team-col:first-child .box .content {
   left: 0px;

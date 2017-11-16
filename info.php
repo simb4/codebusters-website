@@ -1,4 +1,133 @@
+<?php
+  class member{
+    public $name;
+    public $status;
+    public $description;
+    public $photo;
+  }
+  $t1 = new member();
+  $t1->name = 'Murat Alikhanov';
+  $t1->status = 'CEO&Founder';
+  $t1->photo = 'img/team/1.jpg';
+  $t1->description = '';
 
+  $t2 = new member();
+  $t2->name = 'Askar Akshabaev';
+  $t2->status = 'Backend Team Lead';
+  $t2->photo = 'img/team/1.jpg';
+  $t2->description = '';
+
+  $t3 = new member();
+  $t3->name = 'Meir Adilzhanov';
+  $t3->status = 'Frontend Team Lead';
+  $t3->photo = 'img/team/IMG_8968.jpg';
+  $t3->description = ''; 
+  
+  $t4 = new member();
+  $t4->name = 'Merey Baizhokin';
+  $t4->status = 'Product Manager';
+  $t4->photo = 'img/team/IMG_6892.jpg';
+  $t4->description = ''; 
+  
+  $t5 = new member();
+  $t5->name = 'Temirulan Mussayev';
+  $t5->status = 'Backend Developer';
+  $t5->photo = 'img/team/IMG_6896.jpg';
+  $t5->description = ''; 
+  
+  $t6 = new member();
+  $t6->name = 'Paul Samulyak';
+  $t6->status = 'Creative Director';
+  $t6->photo = 'img/team/1.jpg';
+  $t6->description = ''; 
+  
+  $t7 = new member();
+  $t7->name = 'Aset Tusunbayev';
+  $t7->status = 'Business Development';
+  $t7->photo = 'img/team/1.jpg';
+  $t7->description = ''; 
+  
+  $t8 = new member();
+  $t8->name = 'Timur Sultanov';
+  $t8->status = 'Business Development EMEA';
+  $t8->photo = 'img/team/1.jpg';
+  $t8->description = ''; 
+  
+  $t9 = new member();
+  $t9->name = 'Bektur Suleimenov';
+  $t9->status = 'DevOps Team Lead';
+  $t9->photo = 'img/team/1.jpg';
+  $t9->description = ''; 
+  
+  $t10 = new member();
+  $t10->name = 'Alimzhan Amanov';
+  $t10->status = 'Frontend Developer';
+  $t10->photo = 'img/team/IMG_6911.jpg';
+  $t10->description = ''; 
+  
+  $t11 = new member();
+  $t11->name = 'Aqzholtai Dagzhan';
+  $t11->status = 'Frontend Developer';
+  $t11->photo = 'img/team/IMG_6842.jpg';
+  $t11->description = ''; 
+  
+  $t12 = new member();
+  $t12->name = 'Murager Zhailkhan';
+  $t12->status = 'Android Team Lead';
+  $t12->photo = 'img/team/IMG_6850.jpg';
+  $t12->description = ''; 
+  
+  $t13 = new member();
+  $t13->name = 'Rauan Toleubek';
+  $t13->status = 'Android Developer';
+  $t13->photo = 'img/team/IMG_8874.jpg';
+  $t13->description = ''; 
+  
+  $t14 = new member();
+  $t14->name = 'Nurlan Tolegenov';
+  $t14->status = 'iOS Team Lead';
+  $t14->photo = 'img/team/IMG_6852.jpg';
+  $t14->description = ''; 
+  
+  $t15 = new member();
+  $t15->name = 'Abzal Kobenov';
+  $t15->status = 'iOS Developer';
+  $t15->photo = 'img/team/IMG_8897.jpg';
+  $t15->description = ''; 
+  
+  $t16 = new member();
+  $t16->name = 'Aibek Prenov';
+  $t16->status = 'Backend Developer';
+  $t16->photo = 'img/team/IMG_8884-2.jpg';
+  $t16->description = ''; 
+  
+  $t17 = new member();
+  $t17->name = 'Aidana Kurmasheva';
+  $t17->status = 'Backend Developer';
+  $t17->photo = 'img/team/IMG_8960-2.jpg';
+  $t17->description = ''; 
+  
+  $t18 = new member();
+  $t18->name = 'Daniyar Mussabekov';
+  $t18->status = 'Full Stack Developer';
+  $t18->photo = 'img/team/IMG_6845.jpg';
+  $t18->description = ''; 
+  
+  $t19 = new member();
+  $t19->name = 'Andrey Kim';
+  $t19->status = 'DevOps';
+  $t19->photo = 'img/team/IMG_6847.jpg';
+  $t19->description = ''; 
+  
+  $t20 = new member();
+  $t20->name = 'Murat';
+  $t20->status = 'Founder';
+  $t20->photo = 'img/team/1.jpg';
+  $t20->description = '';
+
+
+  $memberList = array($t1, $t2, $t3, $t4, $t5, $t6, $t7, $t8, $t9, $t10, $t11, $t12, $t13, $t14, $t15, $t16, $t17, $t18, $t19, $t20);
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -217,124 +346,38 @@
             <!-- team -->
             <div class="cb-main-section" id="team">
               <div class="main-section-title"> our team/ </div>
-
-              <div class="team-grid">
-                <div class="team-col col-sm-4">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                        <div class="box-desc">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                        </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-col col-sm-4">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-col col-sm-4">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="members">
+              <?php
+                for ($i = 0; $i < count($memberList); $i++) {
+                  echo '<div><div class="member" style="background: url('.$memberList[0]->photo.') no-repeat center; background-size: cover;">';
+                  echo '<h1>'.$memberList[$i]->name.'</h1>';
+                  echo '<span>'.$memberList[$i]->status.'</span>';
+                  echo '</div></div>';
+                }
+              ?>
               </div>
+
               <div class="team-grid-mobile">
                 <div class="team-col col-xs-6">
                   <div class="box">
                     <div class="content">
                       <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
+                        <div class="box-name">Bektur Suleimenov</div>
+                        <div class="box-title">DevOps</div>
                       </div>
                       <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box">
+                    <div class="content">
+                      <div class="box-name-title">
+                        <div class="box-name">Roman Cherepivskiy</div>
+                        <div class="box-title">UI Designer</div>
+                      </div>
+                      <div class="box-desc">
+                        
                       </div>
                     </div>
                   </div>
@@ -345,18 +388,7 @@
                         <div class="box-title">front-end designer</div>
                       </div>
                       <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
+                        
                       </div>
                     </div>
                   </div>
@@ -369,7 +401,7 @@
                         <div class="box-title">front-end designer</div>
                       </div>
                       <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
+                        
                       </div>
                     </div>
                   </div>
@@ -380,7 +412,7 @@
                         <div class="box-title">front-end designer</div>
                       </div>
                       <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
+                        
                       </div>
                     </div>
                   </div>
@@ -391,7 +423,7 @@
                         <div class="box-title">front-end designer</div>
                       </div>
                       <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
+                        
                       </div>
                     </div>
                   </div>
