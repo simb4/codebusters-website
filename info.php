@@ -151,10 +151,7 @@
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:bold" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i,700,800,900" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -168,12 +165,12 @@
 
     function init(){
         myMap = new ymaps.Map("map-almaty", {
-            center: [55.76, 37.64],
-            zoom: 7
+            center: [43.216406, 76.975192],
+            zoom: 16
         });
         dubMap = new ymaps.Map("map-dublin", {
             center: [55.76, 37.64],
-            zoom: 7
+            zoom: 16
         });
     }
     </script>
@@ -200,7 +197,7 @@
       <div class="row">
         <!--sidebar -->
         <div id="sidebar-anchor"></div>
-        <div class="col-sm-2 cb-sidebar" id="sidebar">
+        <div class="col-sm-3 cb-sidebar" id="sidebar">
           <ol class="list-unstyled">
             <li class="cb-sidebar-section"><a href="#about">About us</a></li>
             <li class="cb-sidebar-section"><a href="#services">Services</a></li>
@@ -213,13 +210,13 @@
             <a href="#about"><img src="img/arrow-down.png" alt=""></img></a>
           </div>
         </div><!-- /.cb-sidebar -->
-        <div class="col-sm-offset-2 col-sm-10">
+        <div class="col-sm-offset-3 col-sm-9">
           <div class="cb-main">
             <!-- about -->
             <div class="cb-main-section" id="about">
-              <div class="main-section-title"> about us/ </div>
+              <!-- <div class="main-section-title"> about us/ </div> -->
               <div class="col-sm-12 about1">
-                <div class="col-sm-7">
+                <div class="col-sm-5">
                   <p class="section-text">Who you gonna call?</p>
                   <p class="section-title">CODEBUSTERS_</p>
                   <p class="section-text">Agile, creative and proficient.
@@ -227,15 +224,15 @@
                   We provide a complete product cycle from brainstorming and wireframing to delivering an ultimate digital solution/result.
                   </p>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-7">
                   <img src="img/about1.jpg" alt=""/>
                 </div>
               </div>
               <div class="col-sm-12 about2">
-                <div class="col-sm-5">
-                  <img src="img/about1.jpg" alt=""/>
-                </div>
                 <div class="col-sm-7">
+                  <img src="img/about2.jpg" alt=""/>
+                </div>
+                <div class="col-sm-5">
                   <p class="section-text">Our team is cross-functionally balanced, with the best talents in development (backend, frontend, iOS, Android, DevOps, Big Data, etc.), advanced analytics, UI/UX design, product/project management and digital marketing strategy.
                   </p>
                 </div>
@@ -442,7 +439,7 @@
               <div class="main-section-title"> our partners/ </div>
               <div class="team-grid">
                 <div class="team-col col-xs-6">
-                  <div class="box">
+                  <div class="box sdu">
                     <div class="content">
                       <div class="logo">
                         <img src="img/partners/partners-sdu.svg" />
@@ -455,8 +452,11 @@
                   </div>
                 </div>
                 <div class="team-col col-xs-6">
-                  <div class="box">
+                  <div class="box openu">
                     <div class="content">
+                      <div class="logo">
+                        <img src="img/partners/partners-openu.svg" />
+                      </div>
                       <div class="box-name-title">
                         <div class="box-name">Almaty OpenU</div>
                         <div class="box-title">Kazakhstan</div>
@@ -469,8 +469,11 @@
                 <div class="team-col col-xs-12">
                   <div class="box double-box">
                     <div class="content">
+                      <div class="logo">
+                        <img src="img/partners/partners-kbtu.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">Kazakh-British Technical University</div>
+                        <div class="box-name">KBTU</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
@@ -484,30 +487,130 @@
               <div class="main-section-title"> our clients/ </div>
               <div class="team-grid">
                 <div class="team-col col-xs-4">
-                  <div class="box">
+                  <div class="box cl1">
                     <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/power.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">Techgarden</div>
+                        <div class="box-name">Power Wifi</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="team-col col-xs-4">
-                  <div class="box">
+                  <div class="box cl2">
                     <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/tech.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">JTI</div>
-                        <div class="box-title">Japan</div>
+                        <div class="box-name">Tech Garden</div>
+                        <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="team-col col-xs-4">
-                  <div class="box">
+                  <div class="box cl3">
                     <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/jti.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">Almaty OpenU</div>
+                        <div class="box-name">JTI</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl4">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/kcell.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Kcell</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl5">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/kaztour.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Kaztour</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl6">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/incipient.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Incipient</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl7">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/air.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Air Astana</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl8">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/beeline.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Beeline</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl9">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/forbes.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Forbes</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl10">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="img/clients/verigram.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Verigram</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
