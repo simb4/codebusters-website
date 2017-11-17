@@ -467,7 +467,7 @@
               </div>
               <div class="team-grid">
                 <div class="team-col col-xs-12">
-                  <div class="box kbtu">
+                  <div class="box double-box">
                     <div class="content">
                       <div class="logo">
                         <img src="img/partners/partners-kbtu.svg" />
