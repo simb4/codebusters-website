@@ -145,7 +145,6 @@
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
-    <link href="material.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:bold" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
@@ -248,7 +247,7 @@
               <div class="main-section-title"> our services/ </div>
               <div class="service-section">
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_app.jpg" alt="" />
+                  <img class="fullwidth" src="img/services/services_app.jpg" alt="" />
                 </div>
                 <div class="subsection">
                   <div class="subsection-text">
@@ -274,13 +273,13 @@
                   </div>
                 </div>
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_web.jpg" alt="" />
+                  <img class="fullwidth" src="img/services/services_web.jpg" alt="" />
                 </div>
               </div>
 
               <div class="service-section">
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_ui.jpg" alt="" />
+                  <img class="fullwidth" src="img/services/services_ui.jpg" alt="" />
                 </div>
                 <div class="subsection">
                   <div class="subsection-text">
@@ -306,13 +305,13 @@
                   </div>
                 </div>
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_marketing.jpg" alt="" />
+                  <img class="fullwidth" src="img/services/services_marketing.jpg" alt="" />
                 </div>
               </div>
 
               <div class="service-section">
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_prototype.jpg" alt="" />
+                  <img class="fullwidth" src="img/services/services_prototype.jpg" alt="" />
                 </div>
                 <div class="subsection">
                   <div class="subsection-text">
@@ -338,7 +337,7 @@
                   </div>
                 </div>
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="img/services_consulting.jpg" alt="" />
+                  <img class="fullwidth" src="img/services/services_consulting.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -438,6 +437,9 @@
                 <div class="team-col col-xs-6">
                   <div class="box">
                     <div class="content">
+                      <div class="logo">
+                        <img src="img/partners/partners-sdu.svg" />
+                      </div>
                       <div class="box-name-title">
                         <div class="box-name">SDU</div>
                         <div class="box-title">Kazakhstan</div>

@@ -63,10 +63,10 @@
     </div>
 
     <div class="projects">
-      <div class="row" id="jobigo">
+      <div class="row" id="w-jobigo">
         <div class="col-lg-offset-2 col-lg-4 col-sm-6 left-column">
           <div class="photo">
-            <img src="img/jobigo-page.jpg" class="" alt="" />
+            <img src="img/projects/jobigo-page.jpg" class="" alt="" />
           </div>
         </div>
         <div class="col-sm-6 right-column">
@@ -81,7 +81,7 @@
           </div>
         </div>
       </div>
-      <div class="row" id="buro">
+      <div class="row" id="w-buro">
         <div class="col-lg-offset-2 col-lg-4 col-sm-6 left-column">
           <div class="name">
             Buro<br>Interiors
@@ -95,7 +95,7 @@
         </div>
         <div class="col-sm-6 right-column">
           <div class="photo">
-            <img src="img/buro-page.jpg" class="" alt="" />
+            <img src="img/projects/buro-page.jpg" class="" alt="" />
           </div>
         </div>
       </div>
