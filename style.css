@@ -526,7 +526,75 @@ div[class*="col-"].team-col {
 .input-block .contact-button button {
   width: 100%;
 }
+@media (max-width: 1210px){
+  .member{
+    padding: 12px;
+  }
+  .member h1{
+    font-size: 24px;
+  }
+}
+@media (max-width: 900px){
+  .member h1{
+    font-size: 18px;
+  }
+  .member span{
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px){
+  .members > div{
+    width: 50%;
+    padding-top: 50%;
+    height: auto;
+  }
+  .member {
+    bottom: 80px;
+    padding: 0;
+  }
+  .member h1{
+    font-size: 14px;
+  }
+  .member span{
+    font-size: 12px;
+  }
+  .members > div{
+    padding-top: calc(50% + 80px);
+  }
+  .members > div:nth-child(2n) .member{
+    margin-right: 0;
+    margin-left: 8px;
+    margin-bottom: 0;
+  }
+  .members > div:nth-child(2n+1) .member{
+    margin-left: 0;
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
+  .info{
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    background-color: #fff;
+    width: calc(100% - 8px);
+    height: 64px;
+    padding: 10px 8px;
+  }
+  .members > div:nth-child(2n) .info{
+    margin-left: 8px;
+  }
+  .info h1{
+    font-size: 14px;
+    color: #000;
+    text-transform: none;
+    margin: 0;
+  }
+  .info span{
+    font-size: 12px;
+    color: rgba(0,0,0,.64);
+  }
 
+}
 @media (max-width: 990px) {
   .cb-main {
     font-size: 14px;
