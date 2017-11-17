@@ -62,40 +62,65 @@
       <a href="#top"><img src="img/arrow-up.png" alt=""></img></a>
     </div>
 
-    <div class="container projects">
-      <div class="row" id="w-jobigo">
-        <div class="col-sm-offset-1 col-sm-5 left-column">
-          <div class="photo">
-            <img src="img/projects/jobigo-page.jpg" class="" alt="" />
+    <div class="project" id="w-jobigo">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 left-column">
+            <div class="photo">
+              <img src="img/projects/jobigo-page.jpg" class="" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="col-sm-5 right-column">
-          <div class="name">
-            Jobigo
-          </div>
-          <div class="title">
-            IOS / Android
-          </div>
-          <div class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
+          <div class="col-sm-6 right-column">
+            <div class="name">
+              Jobigo
+            </div>
+            <div class="title">
+              IOS / Android
+            </div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
+            </div>
           </div>
         </div>
       </div>
-      <div class="row" id="w-buro">
-        <div class="col-sm-offset-1 col-sm-5 left-column">
-          <div class="name">
-            Buro<br>Interiors
-          </div>
-          <div class="title">
-            AMP / Website
-          </div>
-          <div class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla.
+    </div>
+    <div class="project" id="w-jti">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="name">
+              OOS Form<br>
+              JTI
+            </div>
+            <div class="title">
+              IOS / Android
+            </div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
+            </div>
           </div>
         </div>
-        <div class="col-sm-5 right-column">
-          <div class="photo">
-            <img src="img/projects/buro-page.jpg" class="" alt="" />
+      </div>
+    </div>
+
+    <div class="project" id="w-buro">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 left-column">
+            <div class="name">
+              Buro<br>Interiors
+            </div>
+            <div class="title">
+              AMP / Website
+            </div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla.
+            </div>
+          </div>
+          <div class="col-sm-6 right-column">
+            <div class="photo">
+              <img src="img/projects/buro-page.jpg" class="" alt="" />
+            </div>
           </div>
         </div>
       </div>
