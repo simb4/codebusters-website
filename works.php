@@ -62,14 +62,14 @@
       <a href="#top"><img src="img/arrow-up.png" alt=""></img></a>
     </div>
 
-    <div class="projects">
+    <div class="container projects">
       <div class="row" id="w-jobigo">
-        <div class="col-lg-offset-2 col-lg-4 col-sm-6 left-column">
+        <div class="col-sm-offset-1 col-sm-5 left-column">
           <div class="photo">
             <img src="img/projects/jobigo-page.jpg" class="" alt="" />
           </div>
         </div>
-        <div class="col-sm-6 right-column">
+        <div class="col-sm-5 right-column">
           <div class="name">
             Jobigo
           </div>
@@ -82,7 +82,7 @@
         </div>
       </div>
       <div class="row" id="w-buro">
-        <div class="col-lg-offset-2 col-lg-4 col-sm-6 left-column">
+        <div class="col-sm-offset-1 col-sm-5 left-column">
           <div class="name">
             Buro<br>Interiors
           </div>
@@ -93,7 +93,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla.
           </div>
         </div>
-        <div class="col-sm-6 right-column">
+        <div class="col-sm-5 right-column">
           <div class="photo">
             <img src="img/projects/buro-page.jpg" class="" alt="" />
           </div>
