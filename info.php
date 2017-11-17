@@ -197,7 +197,7 @@
       <div class="row">
         <!--sidebar -->
         <div id="sidebar-anchor"></div>
-        <div class="col-sm-3 cb-sidebar" id="sidebar">
+        <div class="col-sm-2 cb-sidebar" id="sidebar">
           <ol class="list-unstyled">
             <li class="cb-sidebar-section"><a href="#about">About us</a></li>
             <li class="cb-sidebar-section"><a href="#services">Services</a></li>
@@ -210,7 +210,7 @@
             <a href="#about"><img src="img/arrow-down.png" alt=""></img></a>
           </div>
         </div><!-- /.cb-sidebar -->
-        <div class="col-sm-offset-3 col-sm-9">
+        <div class="col-sm-offset-2 col-sm-10">
           <div class="cb-main">
             <!-- about -->
             <div class="cb-main-section" id="about">
@@ -617,6 +617,7 @@
                   </div>
                 </div>
               </div>
+            </div>
             <!-- contacts -->
             <div class="cb-main-section" id="contacts">
               <div class="main-section-title"> our contacts/ </div>
