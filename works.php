@@ -16,7 +16,6 @@
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
-    <link href="material.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:bold" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
@@ -49,14 +48,14 @@
   <div class="root">
     <div class="container cb-header" id="top">
       <div class="cb-logo">
-        <a href="#"><img class="fullwidth" src="img/cb-logo.svg" alt=""></img></a>
+        <a href="index.php"><img class="fullwidth" src="img/cb-logo.svg" alt=""></img></a>
       </div>
       <div class="cb-logo-vert">
-        <a href="#"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
+        <a href="index.php"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
       </div>
       <div class="cb-navs">
-        <a class="cb-nav-item" href="#">WORKS</a>
-        <a class="cb-nav-item active" href="#">INFO</a>
+        <a class="cb-nav-item active" href="works.php">WORKS</a>
+        <a class="cb-nav-item" href="info.php">INFO</a>
       </div>
     </div>
     <div class="to-top">
