@@ -467,7 +467,7 @@
               </div>
               <div class="team-grid">
                 <div class="team-col col-xs-12">
-                  <div class="box double-box">
+                  <div class="box kbtu">
                     <div class="content">
                       <div class="logo">
                         <img src="img/partners/partners-kbtu.svg" />
@@ -617,43 +617,6 @@
                   </div>
                 </div>
               </div>
-
-
-              <div class="team-grid-mobile">
-                <div class="team-col col-xs-6">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">SDU</div>
-                        <div class="box-title">Kazakhstan</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-col col-xs-6">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Almaty OpenU</div>
-                        <div class="box-title">Kazakhstan</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="team-grid-mobile">
-                <div class="team-col col-xs-12">
-                  <div class="box double-box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Kazakh-British Technical University</div>
-                        <div class="box-title">Kazakhstan</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <!-- contacts -->
             <div class="cb-main-section" id="contacts">
               <div class="main-section-title"> our contacts/ </div>

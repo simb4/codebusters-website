@@ -639,7 +639,16 @@ div[class*="col-"].team-col {
     font-size: 12px;
     color: rgba(0,0,0,.64);
   }
-
+  /*partners*/
+  #team .team-col .box .content{
+    padding: 0;
+  }
+  #team .team-col .sdu{
+    padding: 0;
+  }
+  #clients .col-xs-4{
+    width: 50%;
+  }
 }
 @media (max-width: 990px) {
   .cb-main {
@@ -866,9 +875,25 @@ div[class*="col-"].team-col {
     float: left;
   }
   .team-col .box {
-    padding-bottom: 24px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-bottom: 0;    
+  }
+  #partners .team-col .sdu .content{
+    top: 0;
+    left: 0;
+    right: 8px;
+    bottom: 16px;
+  }
+  #partners .team-col .openu .content{
+    top: 0;
+    left: 8px;
+    right: 0;
+    bottom: 0;
+  }
+  #partners .kbtu .content{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
   .team-col .box:before {
     padding-top: calc(100% + 56px);
@@ -902,10 +927,6 @@ div[class*="col-"].team-col {
 /*  #team .content:hover .box-name-title {
     top: calc(100% - 56px);
   }*/
-  #team .team-col .box .content {
-    padding: 8px;
-    background-color: #C4C4C4;
-  }
   #team .content .box-name {
     font-size: 14px;
   }
@@ -971,7 +992,18 @@ div[class*="col-"].team-col {
     display: block;
     margin: 0 auto;  
   }
-
+  #clients .team-col:nth-child(2n+1) .content{
+    left: 0;
+    top: 0;
+    right: 8px;
+    bottom: 16px;
+  }
+  #clients .team-col:nth-child(2n) .content{
+    left: 8px;
+    top: 0;
+    right: 0;
+    bottom: 16px;
+  }
   /* contacts */
   .contacts-block {
     display: flex;
