@@ -17,7 +17,7 @@ div[class*="col-"] {
   padding-right: 0;
 }
 .container {
-  width: 90%;
+  /*width: 90%;*/
   padding: 0;
   position: relative;
 }
@@ -1038,10 +1038,11 @@ div[class*="col-"].team-col {
 
 
 /*  =====================  */
-.projects {
-  padding: 0 5%;
-}
 
+
+.projects .row {
+  padding: 48px 0px;
+}
 .name {
   font-size: 64px;
   line-height: 78px;
@@ -1052,11 +1053,7 @@ div[class*="col-"].team-col {
   font-weight: 500;
 }
 
-.projects .row {
-  padding: 48px 5.555555%;
-  margin: 0 -5.55555555%;
-  font-size: 16px;  
-}
+
 #w-jobigo {
   background-color: #03A9F4;
   color: white;
@@ -1082,7 +1079,7 @@ div[class*="col-"].team-col {
 
 
 /* index page styles */
-.project-links{position: absolute;left: 0;bottom: 80px;}
+.project-links{position: absolute;left: 0;bottom: 80px; z-index: 1200;}
 .projects-list a{color: rgba(0,0,0,0.5);}
 .projects-list h1{font-weight: bold;margin: 0}
 .projects-list p{font-size: 24px;}
