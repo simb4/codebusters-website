@@ -943,6 +943,14 @@ div[class*="col-"].team-col {
     line-height: unset;
   }
 
+  .content .logo {
+
+  }
+  #partners .content .logo img {
+    display: block;
+    margin: 0 auto;  
+  }
+
   /* contacts */
   .contacts-block {
     display: flex;
@@ -1117,26 +1125,26 @@ div[class*="col-"].team-col {
   margin: 0 -5.55555555%;
   font-size: 16px;  
 }
-#jobigo {
+#w-jobigo {
   background-color: #03A9F4;
   color: white;
 }
-#jobigo .right-column {
+#w-jobigo .right-column {
   /*max-width: 420px;*/
 }
-#buro {
+#w-buro {
   background-color: #F7F7F7;
 }
-#buro .desc {
+#w-buro .desc {
   opacity: 0.54;
 }
-#buro .photo {
+#w-buro .photo {
   width: 100%;
 }
-#buro .photo img {
+#w-buro .photo img {
   width: 100%;
 }
-#buro .left-column {
+#w-buro .left-column {
   padding-right: 24px;
 }
 

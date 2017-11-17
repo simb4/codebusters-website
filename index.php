@@ -7,96 +7,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="codebusters">
 
-    <title>Blog Template for Bootstrap</title>
+    <title>Codebusters</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-    <link href="material.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:bold" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="animate.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="https://api-maps.yandex.ru/2.1/?lang=en_US" type="text/javascript"></script>
-    <script type="text/javascript">
-    ymaps.ready(init);
-    var alaMap, dubMap;
-
-    function init(){     
-        myMap = new ymaps.Map("map-almaty", {
-            center: [55.76, 37.64],
-            zoom: 7
-        });
-        dubMap = new ymaps.Map("map-dublin", {
-            center: [55.76, 37.64],
-            zoom: 7
-        });
-    }
-    </script>
   </head>
 
   <body>
   <div class="root">
     <div class="container cb-header" id="top">
       <div class="cb-logo">
-        <a href="#"><img class="fullwidth" src="img/cb-logo.svg" alt=""></img></a>
+        <a href="index.php"><img class="fullwidth" src="img/cb-logo.svg" alt=""></img></a>
       </div>
       <div class="cb-logo-vert">
-        <a href="#"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
+        <a href="index.php"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
       </div>
       <div class="cb-navs">
-        <a class="cb-nav-item" href="#">WORKS</a>
-        <a class="cb-nav-item active" href="#">INFO</a>
+        <a class="cb-nav-item" href="works.php">WORKS</a>
+        <a class="cb-nav-item" href="info.php">INFO</a>
       </div>
     </div>
     <div class="to-top">
       <a href="#top"><img src="img/arrow-up.png" alt=""></img></a>
     </div>
-
-    <div class="projects">
-      <div class="row" id="jobigo">
-        <div class="col-lg-offset-2 col-lg-4 col-sm-6 left-column">
-          <div class="photo">
-            <img src="img/jobigo-page.jpg" class="" alt="" />
-          </div>
-        </div>
-        <div class="col-sm-6 right-column">
-          <div class="name">
-            Jobigo
-          </div>
-          <div class="title">
-            IOS / Android
-          </div>
-          <div class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-          </div>
-        </div>
+    <div class="container">
+      <!-- main slider -->
+      <div class="project-links">
+        <ul class="list-unstyled projects-list" role="tablist" id="projects">
+           <li role="presentation" class="active">
+             <a href="#jobigo" aria-controls="jobigo" role="tab" data-toggle="tab">
+               <h1>JobiGo app</h1>
+               <p>IOS, Android</p>
+             </a>
+           </li>
+           <li role="presentation">
+             <a href="#oos" aria-controls="oos" role="tab" data-toggle="tab">
+               <h1>OOS Form app</h1>
+               <p>IOS, Android</p>
+             </a>
+           </li>
+           <li role="presentation">
+             <a href="#buro" aria-controls="buro" role="tab" data-toggle="tab">
+               <h1>Buro Interiors</h1>
+               <p>Website</p>
+             </a>
+           </li>
+         </ul>
       </div>
-      <div class="row" id="buro">
-        <div class="col-lg-offset-2 col-lg-4 col-sm-6 left-column">
-          <div class="name">
-            Buro<br>Interiors
+      <div class="project-image-slider">
+        <div class="tab-content text-right">
+          <div role="tabpanel" class="tab-pane fade in active" id="jobigo">
+            <img src="img/projects/jobigo.jpg" alt="JobiGo app">
           </div>
-          <div class="title">
-            AMP / Website
+          <div role="tabpanel" class="tab-pane fade" id="oos">
+            <img src="img/projects/oos.jpg" alt="OOS Form app">
           </div>
-          <div class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla.
-          </div>
-        </div>
-        <div class="col-sm-6 right-column">
-          <div class="photo">
-            <img src="img/buro-page.jpg" class="" alt="" />
+          <div role="tabpanel" class="tab-pane fade" id="buro">
+            <img src="img/projects/buro.jpg" alt="Buro Interiors">
           </div>
         </div>
       </div>
@@ -107,10 +90,10 @@
         <div class="row">
           <div class="cb-footer-section show-mobile">
             <div class="cb-logo">
-              <a href="#"><img class="fullwidth" src="img/cb-logo.svg" alt=""></img></a>
+              <a href="index.html"><img class="fullwidth" src="img/cb-logo.svg" alt=""></img></a>
             </div>
             <div class="cb-logo-vert">
-              <a href="#"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
+              <a href="index.html"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
             </div>
           </div>
           <div class="cb-footer-section">
@@ -140,6 +123,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('#projects a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+    </script>
   </div>
   </body>
 </html>
