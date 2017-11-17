@@ -184,7 +184,7 @@
         <a href="#"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
       </div>
       <div class="cb-navs">
-        <a class="cb-nav-item" href="#">WORKS</a>
+        <a class="cb-nav-item" href="works.php">WORKS</a>
         <a class="cb-nav-item active" href="#">INFO</a>
       </div>
     </div>
