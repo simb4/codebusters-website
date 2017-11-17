@@ -1,7 +1,7 @@
 /*
 Theme Name: Codebusters-theme
 Author: Codebusters
-Description: Bootstrap Blog template converted to WordPress
+Description: codebusters portfolio website
 Version: 0.0.1
 Tags: bootstrap
 */
@@ -18,13 +18,13 @@ body {
  * Override Bootstrap's default container.
  */
 
-
+h1, .h1{font-size: 48px;}
 div[class*="col-"] {
   padding-left: 0;
   padding-right: 0;
 }
 .container {
-  width: 90%;
+  /*width: 90%;*/
   padding: 0;
   position: relative;
 }
@@ -143,6 +143,7 @@ div[class*="col-"] {
 }
 .section-text {
   opacity: 0.74;
+  font-weight: 600;
 }
 .subsection-text .text {
   opacity: 0.74;
@@ -227,20 +228,6 @@ div[class*="col-"].team-col {
   padding-left: 8px;
   transition: all 0.5s linear;
 }
-.team-col:first-child .box {
-  padding-bottom: 24px;
-  padding-right: 16px;
-  padding-left: 0px;
-}
-.team-col:last-child .box {
-  padding-bottom: 24px;
-  padding-right: 0px;
-  padding-left: 16px;
-}
-.team-col:only-child .box {
-  padding-bottom: 24px;
-  padding: 0;
-}
 
 /* aspect ratio for boxes */
 .team-col .box:before {
@@ -252,7 +239,7 @@ div[class*="col-"].team-col {
 .team-col .double-box.box:before {
   padding-top: 50%;
 }
-#team .box:hover:before {
+/*#team .box:hover:before {
   padding-top: calc(200% + 24px);
 }
 
@@ -266,34 +253,102 @@ div[class*="col-"].team-col {
 .box:hover + .box .content {
   padding: 0;
 }
-
+*/
 /* specifying content */
 #team .team-col .box .content {
   overflow: hidden;
-  background-color: #000;
+}
+/*simple team grid*/
+.members{
+  display: flex;
+  flex-wrap: wrap;
+}
+.members > div{
+  position: relative;
+  width: 33.33%;
+}
+.members > div:nth-child(3n+1) .member{
+  margin-right: 16px;
+}
+.members > div:nth-child(3n+2) .member{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.members > div:nth-child(3n) .member{
+  margin-left: 16px;
+}
+.members > div:after{
+  content: "";
+  display: block;
+  padding-bottom: 100%; 
+}
+.member{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  max-height: (100%);
+  max-width: 100%;
+  padding: 24px;
+  margin-bottom: 24px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.member h1{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
   color: #fff;
+}
+.member span{
+  font-size: 18px;
+  color: rgba(255,255,255,.7);
 }
 
 /* content layout */
 .team-col .box .content {
-  padding: 24px;
+  /*padding: 24px;*/
   position: absolute;
   left: 8px;
   top: 0;
   right: 8px;
   bottom: 24px;
 }
-.team-col:first-child .box .content {
-  left: 0px;
+.team-col .box .content img{
+  height: 100%;
+}
+
+.team-col:nth-child(3n + 1) .box .content{
+  /*padding-left: 0px;*/
+  /*padding-right: 16px;*/
+  left: 0;
+  top: 0;
   right: 16px;
+  bottom: 24px;
 }
-.team-col:last-child .box .content {
+.team-col:nth-child(3n) .box .content{
+  /*padding-left: 16px;*/
+  /*padding-right: 0px;*/
   left: 16px;
-  right: 0px;
+  top: 0;
+  right: 0;
+  bottom: 24px;
 }
-.team-col:only-child .box .content {
-  left: 0px;
-  right: 0px;
+.team-col:nth-child(3n+2) .box .content{
+  /*padding-left: 8px;*/
+  /*padding-right: 8px;*/
+  left: 8px;
+  top: 0;
+  right: 8px;
+  bottom: 24px;
 }
 
 #team .content .box-name {
@@ -304,17 +359,17 @@ div[class*="col-"].team-col {
   font-weight: normal;
   opacity: 0.7;
 }
-#team .content .box-name-title {
+/*#team .content .box-name-title {
   position: absolute;
   left: 24px;
   right: 24px;
   top: calc(100% - 124px);
   transition: top 0.5s linear;
-}
-#team .content:hover .box-name-title {
+}*/
+/*#team .content:hover .box-name-title {
   top: 24px;
   bottom: none;
-}
+}*/
 #team .content .box-desc {
   position: absolute;
   top: 164px;
@@ -325,10 +380,10 @@ div[class*="col-"].team-col {
   transition: all 0.5s ease-in-out;
   /*transition-delay: 0.2s;*/
 }
-#team .content:hover .box-desc {
+/*#team .content:hover .box-desc {
   visibility: visible;
   opacity: 1;
-}
+}*/
 
 
 /*
@@ -338,10 +393,7 @@ div[class*="col-"].team-col {
   background-color: rgba(0,0,0,0.05);
 }
 #partners .content .box-name-title {
-  position: absolute;
-  left: 24px;
-  right: 24px;
-  bottom: 24px;
+  padding: 24px;
 }
 #partners .content .box-name {
   font-size: 32px;
@@ -351,30 +403,78 @@ div[class*="col-"].team-col {
 #partners .content .box-title {
   color: rgba(0, 0, 0, 0.54);
 }
-
+#team .team-col .box .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box .logo{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .logo img{
+  max-width: 60%;
+}
+#team .team-col .sdu .content{
+  background-color: rgba(0, 179, 223, 0.1);
+}
+.openu .logo img{
+  width: 30%; 
+}
+#team .team-col .openu .content{
+  background-color: rgba(0, 105, 181, 0.1);
+}
 
 /*
  * clients
 */
-#clients .content {
-  background-color: rgba(0,0,0,0.05);
-}
 #clients .content .box-name-title {
-  position: absolute;
-  left: 24px;
-  right: 24px;
-  bottom: 24px;
+  padding: 24px;
 }
 #clients .content .box-name {
   font-size: 32px;
-  line-height: 31px;
+  line-height: .8;
   font-weight: 600;
 }
 #clients .content .box-title {
   color: rgba(0, 0, 0, 0.54);
 }
-
-
+#clients .cl1 .content{
+  background-color: rgba(232, 82, 8, 0.1);
+}
+#clients .cl2 .content{
+  background-color: rgba(93, 168, 55, 0.1);
+}
+#clients .cl3 .content{
+  background-color: rgba(0, 176, 133, 0.1);
+}
+#clients .cl4 .content{
+  background-color: rgba(92, 56, 135, 0.1);
+}
+#clients .cl5 .content{
+  background-color: rgba(6, 141, 255, 0.1);
+}
+#clients .cl6 .content{
+  background-color: rgba(63, 169, 245, 0.1);
+}
+#clients .cl7 .content{
+  background-color: rgba(148, 135, 77, 0.1);
+}
+#clients .cl8 .content{
+  background-color: rgba(252, 217, 3, 0.1);
+}
+#clients .cl9 .content{
+  background-color: rgba(0, 48, 90, 0.1);
+}
+#clients .cl10 .content{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#clients .team-grid{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /*
  * contacts
@@ -478,7 +578,85 @@ div[class*="col-"].team-col {
 .input-block .contact-button button {
   width: 100%;
 }
-
+@media (max-width: 1210px){
+  .member{
+    padding: 12px;
+  }
+  .member h1{
+    font-size: 24px;
+  }
+}
+@media (max-width: 900px){
+  .member h1{
+    font-size: 18px;
+  }
+  .member span{
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px){
+  .members > div{
+    width: 50%;
+    height: auto;
+  }
+  .member {
+    bottom: 80px;
+    padding: 0;
+  }
+  .member h1{
+    font-size: 14px;
+  }
+  .member span{
+    font-size: 12px;
+  }
+  .members > div:after{
+    content: "";
+    display: block;
+    padding-bottom: calc(100% + 80px); 
+  }
+  .members > div:nth-child(2n) .member{
+    margin-right: 0;
+    margin-left: 8px;
+    margin-bottom: 0;
+  }
+  .members > div:nth-child(2n+1) .member{
+    margin-left: 0;
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
+  .info{
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    background-color: #fff;
+    width: calc(100% - 8px);
+    height: 64px;
+    padding: 10px 8px;
+  }
+  .members > div:nth-child(2n) .info{
+    margin-left: 8px;
+  }
+  .info h1{
+    font-size: 14px;
+    color: #000;
+    text-transform: none;
+    margin: 0;
+  }
+  .info span{
+    font-size: 12px;
+    color: rgba(0,0,0,.64);
+  }
+  /*partners*/
+  #team .team-col .box .content{
+    padding: 0;
+  }
+  #team .team-col .sdu{
+    padding: 0;
+  }
+  #clients .col-xs-4{
+    width: 50%;
+  }
+}
 @media (max-width: 990px) {
   .cb-main {
     font-size: 14px;
@@ -494,9 +672,9 @@ div[class*="col-"].team-col {
     right: 16px;
     top: calc(100% - 92px);
   }
-  #team .content:hover .box-name-title {
+/*  #team .content:hover .box-name-title {
     top: 16px;
-  }
+  }*/
   #team .content .box-desc {
     font-size: 12px;
     left: 16px;
@@ -703,27 +881,31 @@ div[class*="col-"].team-col {
   .team-col {
     float: left;
   }
-  .team-col:first-child .box {
-    padding-left: 0px;
-    padding-right: 16px;
-  }
-  .team-col:last-child .box {
-    padding-left: 16px;
-    padding-right: 0px;
-  }
-  .team-col:only-child .box {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
   .team-col .box {
-    padding-bottom: 24px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-bottom: 0;    
+  }
+  #partners .team-col .sdu .content{
+    top: 0;
+    left: 0;
+    right: 8px;
+    bottom: 16px;
+  }
+  #partners .team-col .openu .content{
+    top: 0;
+    left: 8px;
+    right: 0;
+    bottom: 0;
+  }
+  #partners .kbtu .content{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
   .team-col .box:before {
     padding-top: calc(100% + 56px);
   }
-  #team .box:hover:before {
+  /*#team .box:hover:before {
     padding-top: calc(100% + 56px);
     background-color: #000;
     opacity: 0.7;
@@ -734,7 +916,7 @@ div[class*="col-"].team-col {
   .box:hover + .box {
     opacity: 1;
     padding-bottom: 24px;
-  }
+  }*/
   .box:after {
     background: #000;
     opacity: 0.7;
@@ -749,26 +931,9 @@ div[class*="col-"].team-col {
     top: calc(100% - 56px);
     background-color: white;
   }
-  #team .content:hover .box-name-title {
+/*  #team .content:hover .box-name-title {
     top: calc(100% - 56px);
-  }
-
-  .team-col:first-child .box .content {
-    left: 0px;
-    right: 8px;
-  }
-  .team-col:last-child .box .content {
-    left: 8px;
-    right: 0px;
-  }
-  .team-col:only-child .box .content {
-    left: 0px;
-    right: 0px;
-  }
-  #team .team-col .box .content {
-    padding: 8px;
-    background-color: #C4C4C4;
-  }
+  }*/
   #team .content .box-name {
     font-size: 14px;
   }
@@ -786,10 +951,10 @@ div[class*="col-"].team-col {
     transition: background-color 0.5 ease-in;
     transition: opacity 1s linear;
   }
-  #team .content:hover .box-desc {
+/*  #team .content:hover .box-desc {
     opacity: 0.8;
-  }
-  
+  }*/
+
   /* clients and partners */
   #partners .content .box-name {
     font-size: 14px;
@@ -827,6 +992,25 @@ div[class*="col-"].team-col {
     line-height: unset;
   }
 
+  .content .logo {
+
+  }
+  #partners .content .logo img {
+    display: block;
+    margin: 0 auto;  
+  }
+  #clients .team-col:nth-child(2n+1) .content{
+    left: 0;
+    top: 0;
+    right: 8px;
+    bottom: 16px;
+  }
+  #clients .team-col:nth-child(2n) .content{
+    left: 8px;
+    top: 0;
+    right: 0;
+    bottom: 16px;
+  }
   /* contacts */
   .contacts-block {
     display: flex;
@@ -851,7 +1035,7 @@ div[class*="col-"].team-col {
   .cb-footer {
     background-color: #F7F7F7;
     padding-top: 16px;
-    padding-bottom: 72px; 
+    padding-bottom: 72px;
   }
   .cb-footer .row {
     /*display: block;*/
@@ -881,8 +1065,7 @@ div[class*="col-"].team-col {
   }
 }
 
-
-
+/* MATERIAL */
 .form-group {
   position: relative;
   margin-top: 2.25rem;
@@ -982,3 +1165,72 @@ div[class*="col-"].team-col {
 
 
 
+/*  =====================  */
+/*  project page           */
+/*  =====================  */
+.project {
+  min-height: 554px;
+}
+.project .row {
+  padding: 48px 0px;
+}
+.project .full-photo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.name {
+  font-size: 64px;
+  line-height: 78px;
+  font-weight: bold;
+}
+.title {
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+
+#w-jobigo {
+  /*background-color: ;*/
+}
+#w-jobigo .right-column {
+  /*max-width: 420px;*/
+}
+#w-buro {
+  background-color: #F7F7F7;
+}
+#w-buro .desc {
+  opacity: 0.54;
+}
+#w-buro .photo {
+  width: 100%;
+  height: 100%;
+}
+#w-buro .photo img {
+  width: 100%;
+}
+#w-buro .left-column {
+  padding-right: 24px;
+}
+
+#w-jobigo {
+  background:  linear-gradient(90deg, rgba(218, 230, 242, 0) 0%, #E4ECF7 11.69%);;
+}
+#w-jobigo .photo img {
+  width: 100%;
+}
+#w-jti {
+  background: url(img/projects/jti-page.jpg) no-repeat center;
+}
+
+
+/*  =====================  */
+/*  index page           */
+/*  =====================  */
+
+.project-links{position: absolute;left: 0;bottom: 80px; z-index: 1200;}
+.projects-list a{color: rgba(0,0,0,0.5);}
+.projects-list h1{font-weight: bold;margin: 0}
+.projects-list p{font-size: 24px;}
+.projects-list a:hover,
+.projects-list li.active a{color: rgba(0,0,0,1);text-decoration: none;}

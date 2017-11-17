@@ -359,8 +359,9 @@
                 }
               ?>
               </div>
-
-              <!-- <div class="team-grid-mobile">
+            </div>
+              <!-- 
+              <div class="team-grid-mobile">
                 <div class="team-col col-xs-6">
                   <div class="box">
                     <div class="content">
@@ -432,8 +433,8 @@
                   </div>
                 </div>
               </div>
-            </div>
- -->
+            </div>-->
+
             <!-- partners -->
             <div class="cb-main-section" id="partners">
               <div class="main-section-title"> our partners/ </div>

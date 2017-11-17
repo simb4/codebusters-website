@@ -1,4 +1,3 @@
-
     <footer class="cb-footer" id="footer">
       <div class="container">
         <div class="row">
@@ -31,6 +30,7 @@
       </div>
     </footer>
 
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -54,7 +54,7 @@
 
           var div_top = $('#sidebar-anchor').offset().top;
           var div_height = $('#sidebar').height();
-        
+
           var footer_top = $('#footer').offset().top + Math.max(window_height - div_height, 0);
           if (window_top > div_top) {
               if (window_bot >= footer_top) {
@@ -100,6 +100,5 @@
       });
     </script>
   </div>
-  <?php wp_footer(); ?> 
   </body>
 </html>

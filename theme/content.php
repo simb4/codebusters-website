@@ -5,7 +5,7 @@
       <div class="row">
         <!--sidebar -->
         <div id="sidebar-anchor"></div>
-        <div class="col-sm-2 cb-sidebar" id="sidebar">  
+        <div class="col-sm-2 cb-sidebar" id="sidebar">
           <ol class="list-unstyled">
             <li class="cb-sidebar-section"><a href="#about">About us</a></li>
             <li class="cb-sidebar-section"><a href="#services">Services</a></li>
@@ -22,9 +22,9 @@
           <div class="cb-main">
             <!-- about -->
             <div class="cb-main-section" id="about">
-              <div class="main-section-title"> about us/ </div>
+              <!-- <div class="main-section-title"> about us/ </div> -->
               <div class="col-sm-12 about1">
-                <div class="col-sm-7">
+                <div class="col-sm-5">
                   <p class="section-text">Who you gonna call?</p>
                   <p class="section-title">CODEBUSTERS_</p>
                   <p class="section-text">Agile, creative and proficient.
@@ -32,22 +32,22 @@
                   We provide a complete product cycle from brainstorming and wireframing to delivering an ultimate digital solution/result.
                   </p>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-7">
                   <img src="<?php echo get_template_directory_uri();?>/img/about1.jpg" alt=""/>
                 </div>
               </div>
               <div class="col-sm-12 about2">
-                <div class="col-sm-5">
-                  <img src="<?php echo get_template_directory_uri();?>/img/about1.jpg" alt=""/>
-                </div>
                 <div class="col-sm-7">
+                  <img src="<?php echo get_template_directory_uri();?>/img/about2.jpg" alt=""/>
+                </div>
+                <div class="col-sm-5">
                   <p class="section-text">Our team is cross-functionally balanced, with the best talents in development (backend, frontend, iOS, Android, DevOps, Big Data, etc.), advanced analytics, UI/UX design, product/project management and digital marketing strategy.
                   </p>
                 </div>
               </div>
               <div class="col-sm-12 about3">
                 <div class="col-sm-12">
-                  <p class="section-text">You have an idea and looking for a team who can handle your custom product? Who you gonna call? Codebusters! 
+                  <p class="section-text">You have an idea and looking for a team who can handle your custom product? Who you gonna call? Codebusters!
                   </p>
                   <p class="hint-text">[music plays: Ray Parker Jr. - Ghostbusters] </p>
                 </div>
@@ -58,7 +58,7 @@
               <div class="main-section-title"> our services/ </div>
               <div class="service-section">
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services_app.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services/services_app.jpg" alt="" />
                 </div>
                 <div class="subsection">
                   <div class="subsection-text">
@@ -84,13 +84,13 @@
                   </div>
                 </div>
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services_web.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services/services_web.jpg" alt="" />
                 </div>
               </div>
 
               <div class="service-section">
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services_ui.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services/services_ui.jpg" alt="" />
                 </div>
                 <div class="subsection">
                   <div class="subsection-text">
@@ -116,13 +116,13 @@
                   </div>
                 </div>
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services_marketing.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services/services_marketing.jpg" alt="" />
                 </div>
               </div>
 
               <div class="service-section">
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services_prototype.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services/services_prototype.jpg" alt="" />
                 </div>
                 <div class="subsection">
                   <div class="subsection-text">
@@ -148,7 +148,7 @@
                   </div>
                 </div>
                 <div class="subsection with-img">
-                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services_consulting.jpg" alt="" />
+                  <img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/services/services_consulting.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -156,185 +156,16 @@
             <!-- team -->
             <div class="cb-main-section" id="team">
               <div class="main-section-title"> our team/ </div>
-
-              <div class="team-grid">
-                <div class="team-col col-sm-4">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                        <div class="box-desc">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                        </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-col col-sm-4">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-col col-sm-4">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="team-grid-mobile">
-                <div class="team-col col-xs-6">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-col col-xs-6">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="members">
+              <?php
+                for ($i = 0; $i < count($memberList); $i++) {
+                  echo '<div><div class="member" style="background: url('.get_template_directory_uri().'/'.$memberList[$i]->photo.') no-repeat center; background-size: cover;">';
+                  if($isMobile) echo '</div><div class="info">';
+                  echo '<h1>'.$memberList[$i]->name.'</h1>';
+                  echo '<span>'.$memberList[$i]->status.'</span>';
+                  echo '</div></div>';
+                }
+              ?>
               </div>
             </div>
 
@@ -343,8 +174,11 @@
               <div class="main-section-title"> our partners/ </div>
               <div class="team-grid">
                 <div class="team-col col-xs-6">
-                  <div class="box">
+                  <div class="box sdu">
                     <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/partners/partners-sdu.svg" />
+                      </div>
                       <div class="box-name-title">
                         <div class="box-name">SDU</div>
                         <div class="box-title">Kazakhstan</div>
@@ -353,8 +187,11 @@
                   </div>
                 </div>
                 <div class="team-col col-xs-6">
-                  <div class="box">
+                  <div class="box openu">
                     <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/partners/partners-openu.svg" />
+                      </div>
                       <div class="box-name-title">
                         <div class="box-name">Almaty OpenU</div>
                         <div class="box-title">Kazakhstan</div>
@@ -367,8 +204,11 @@
                 <div class="team-col col-xs-12">
                   <div class="box double-box">
                     <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/partners/partners-kbtu.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">Kazakh-British Technical University</div>
+                        <div class="box-name">KBTU</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
@@ -382,66 +222,130 @@
               <div class="main-section-title"> our clients/ </div>
               <div class="team-grid">
                 <div class="team-col col-xs-4">
-                  <div class="box">
+                  <div class="box cl1">
                     <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/power.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">Techgarden</div>
+                        <div class="box-name">Power Wifi</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="team-col col-xs-4">
-                  <div class="box">
+                  <div class="box cl2">
                     <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/tech.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Tech Garden</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl3">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/jti.svg" />
+                      </div>
                       <div class="box-name-title">
                         <div class="box-name">JTI</div>
-                        <div class="box-title">Japan</div>
+                        <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="team-col col-xs-4">
-                  <div class="box">
+                  <div class="box cl4">
                     <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/kcell.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">Almaty OpenU</div>
+                        <div class="box-name">Kcell</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-
-
-              <div class="team-grid-mobile">
-                <div class="team-col col-xs-6">
-                  <div class="box">
+                <div class="team-col col-xs-4">
+                  <div class="box cl5">
                     <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/kaztour.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">SDU</div>
+                        <div class="box-name">Kaztour</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-6">
-                  <div class="box">
+                <div class="team-col col-xs-4">
+                  <div class="box cl6">
                     <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/incipient.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">Almaty OpenU</div>
+                        <div class="box-name">Incipient</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="team-grid-mobile">
-                <div class="team-col col-xs-12">
-                  <div class="box double-box">
+                <div class="team-col col-xs-4">
+                  <div class="box cl7">
                     <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/air.svg" />
+                      </div>
                       <div class="box-name-title">
-                        <div class="box-name">Kazakh-British Technical University</div>
+                        <div class="box-name">Air Astana</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl8">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/beeline.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Beeline</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl9">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/forbes.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Forbes</div>
+                        <div class="box-title">Kazakhstan</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="team-col col-xs-4">
+                  <div class="box cl10">
+                    <div class="content">
+                      <div class="logo">
+                        <img src="<?php echo get_template_directory_uri();?>/img/clients/verigram.svg" />
+                      </div>
+                      <div class="box-name-title">
+                        <div class="box-name">Verigram</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>
