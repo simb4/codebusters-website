@@ -469,6 +469,12 @@ div[class*="col-"].team-col {
   flex-wrap: wrap;
 }
 
+#clients .content .box-name-title,
+#partners .content .box-name-title {
+  position: absolute;
+  bottom: 0;
+}
+
 /*
  * contacts
 */
