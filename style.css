@@ -474,10 +474,11 @@ div[class*="col-"].team-col {
   flex-wrap: wrap;
 }
 
-#clients .content .box-name-title,
-#partners .content .box-name-title {
-  position: absolute;
-  bottom: 0;
+#clients .content,
+#partners .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /*
@@ -994,6 +995,10 @@ div[class*="col-"].team-col {
   }
   #partners .box.double-box .content {
     right: 0px;
+  }
+  #clients .content,
+  #partners .content {
+    padding: 0;
   }
   .content .logo {
 
