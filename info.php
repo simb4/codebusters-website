@@ -487,7 +487,7 @@
             <div class="cb-main-section" id="clients">
               <div class="main-section-title"> our clients/ </div>
               <div class="team-grid">
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl1">
                     <div class="content">
                       <div class="logo">
@@ -500,7 +500,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl2">
                     <div class="content">
                       <div class="logo">
@@ -513,7 +513,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl3">
                     <div class="content">
                       <div class="logo">
@@ -526,7 +526,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl4">
                     <div class="content">
                       <div class="logo">
@@ -539,7 +539,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl5">
                     <div class="content">
                       <div class="logo">
@@ -552,7 +552,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl6">
                     <div class="content">
                       <div class="logo">
@@ -565,7 +565,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl7">
                     <div class="content">
                       <div class="logo">
@@ -578,7 +578,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl8">
                     <div class="content">
                       <div class="logo">
@@ -591,7 +591,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl9">
                     <div class="content">
                       <div class="logo">
@@ -604,7 +604,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="team-col col-xs-4">
+                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl10">
                     <div class="content">
                       <div class="logo">

@@ -232,7 +232,12 @@ div[class*="col-"].team-col {
 .team-col .double-box.box:before {
   padding-top: 50%;
 }
-/*#team .box:hover:before {
+#partners .box.double-box .content {
+  right: 8px;
+}
+
+/*
+#team .box:hover:before {
   padding-top: calc(200% + 24px);
 }
 
@@ -652,9 +657,6 @@ div[class*="col-"].team-col {
   #team .team-col .sdu{
     padding: 0;
   }
-  #clients .col-xs-4{
-    width: 50%;
-  }
 }
 @media (max-width: 990px) {
   .cb-main {
@@ -893,7 +895,7 @@ div[class*="col-"].team-col {
     top: 0;
     left: 8px;
     right: 0;
-    bottom: 0;
+    bottom: 16px;
   }
   #partners .kbtu .content{
     top: 0;
@@ -990,7 +992,9 @@ div[class*="col-"].team-col {
     background-color: white;
     line-height: unset;
   }
-
+  #partners .box.double-box .content {
+    right: 0px;
+  }
   .content .logo {
 
   }
