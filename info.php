@@ -47,11 +47,11 @@
   $t6->photo = 'img/team/1.jpg';
   $t6->description = ''; 
   
-  $t7 = new member();
-  $t7->name = 'Aset Tusunbayev';
-  $t7->status = 'Business Development';
-  $t7->photo = 'img/team/1.jpg';
-  $t7->description = ''; 
+  // $t7 = new member();
+  // $t7->name = 'Aset Tusunbayev';
+  // $t7->status = 'Business Development';
+  // $t7->photo = 'img/team/1.jpg';
+  // $t7->description = ''; 
   
   $t8 = new member();
   $t8->name = 'Timur Sultanov';
@@ -360,80 +360,6 @@
               ?>
               </div>
             </div>
-              <!-- 
-              <div class="team-grid-mobile">
-                <div class="team-col col-xs-6">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Bektur Suleimenov</div>
-                        <div class="box-title">DevOps</div>
-                      </div>
-                      <div class="box-desc">
-                        
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Roman Cherepivskiy</div>
-                        <div class="box-title">UI Designer</div>
-                      </div>
-                      <div class="box-desc">
-                        
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-col col-xs-6">
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <div class="box-name-title">
-                        <div class="box-name">Alimzhan Amanov</div>
-                        <div class="box-title">front-end designer</div>
-                      </div>
-                      <div class="box-desc">
-                        
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>-->
 
             <!-- partners -->
             <div class="cb-main-section" id="partners">
@@ -527,19 +453,6 @@
                   </div>
                 </div>
                 <div class="team-col col-xs-6 col-sm-4">
-                  <div class="box cl4">
-                    <div class="content">
-                      <div class="logo">
-                        <img src="img/clients/kcell.svg" />
-                      </div>
-                      <div class="box-name-title">
-                        <div class="box-name">Kcell</div>
-                        <div class="box-title">Kazakhstan</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl5">
                     <div class="content">
                       <div class="logo">
@@ -573,19 +486,6 @@
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">Air Astana</div>
-                        <div class="box-title">Kazakhstan</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-col col-xs-6 col-sm-4">
-                  <div class="box cl8">
-                    <div class="content">
-                      <div class="logo">
-                        <img src="img/clients/beeline.svg" />
-                      </div>
-                      <div class="box-name-title">
-                        <div class="box-name">Beeline</div>
                         <div class="box-title">Kazakhstan</div>
                       </div>
                     </div>

@@ -617,7 +617,7 @@ div[class*="col-"].team-col {
   .members > div:after{
     content: "";
     display: block;
-    padding-bottom: calc(100% + 80px); 
+    padding-bottom: calc(100% + 64px); 
   }
   .members > div:nth-child(2n) .member{
     margin-right: 0;

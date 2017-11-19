@@ -239,7 +239,12 @@ div[class*="col-"].team-col {
 .team-col .double-box.box:before {
   padding-top: 50%;
 }
-/*#team .box:hover:before {
+#partners .box.double-box .content {
+  right: 8px;
+}
+
+/*
+#team .box:hover:before {
   padding-top: calc(200% + 24px);
 }
 
@@ -476,6 +481,13 @@ div[class*="col-"].team-col {
   flex-wrap: wrap;
 }
 
+#clients .content,
+#partners .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 /*
  * contacts
 */
@@ -612,7 +624,7 @@ div[class*="col-"].team-col {
   .members > div:after{
     content: "";
     display: block;
-    padding-bottom: calc(100% + 80px); 
+    padding-bottom: calc(100% + 64px); 
   }
   .members > div:nth-child(2n) .member{
     margin-right: 0;
@@ -652,9 +664,6 @@ div[class*="col-"].team-col {
   }
   #team .team-col .sdu{
     padding: 0;
-  }
-  #clients .col-xs-4{
-    width: 50%;
   }
 }
 @media (max-width: 990px) {
@@ -894,7 +903,7 @@ div[class*="col-"].team-col {
     top: 0;
     left: 8px;
     right: 0;
-    bottom: 0;
+    bottom: 16px;
   }
   #partners .kbtu .content{
     top: 0;
@@ -991,7 +1000,13 @@ div[class*="col-"].team-col {
     background-color: white;
     line-height: unset;
   }
-
+  #partners .box.double-box .content {
+    right: 0px;
+  }
+  #clients .content,
+  #partners .content {
+    padding: 0;
+  }
   .content .logo {
 
   }
