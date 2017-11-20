@@ -26,7 +26,7 @@
     <title>Codebusters</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri();?>/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="<?php echo get_template_directory_uri();?>/style.css" rel="stylesheet">
