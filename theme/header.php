@@ -19,15 +19,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="codebusters">
 
     <title>Codebusters</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo get_template_directory_uri();?>/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="<?php echo get_template_directory_uri();?>/style.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri();?>/animate.css" rel="stylesheet">
@@ -59,13 +58,16 @@
   <div class="root">
     <div class="container cb-header" id="top">
       <div class="cb-logo">
-        <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.svg" alt=""></img></a>
+        <a href="index.php"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.svg" alt=""></img></a>
       </div>
       <div class="cb-logo-vert">
         <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo-vert.svg" alt=""></img></a>
       </div>
       <div class="cb-navs">
-        <a class="<?php echo $worksClass; ?>" href="/works">WORKS</a>
-        <a class="<?php echo $infoClass; ?>" href="/info">INFO</a>
+        <a class="<?php echo $worksClass; ?>" href="works.php">WORKS</a>
+        <a class="<?php echo $infoClass; ?>" href="info.php">INFO</a>
       </div>
+    </div>
+    <div class="to-top">
+      <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow-up.png" alt=""></img></a>
     </div>

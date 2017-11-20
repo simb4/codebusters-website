@@ -1,0 +1,17 @@
+#!/bin/bash
+
+python to_theme.py info.php theme/info.php
+python to_theme.py works.php theme/works.php
+python to_theme.py index.php theme/content.php
+
+python to_theme.py header.php theme/header.php
+python to_theme.py footer.php theme/footer.php
+python to_theme.py const.php theme/const.php
+
+python to_theme.py style.css theme/style.css
+
+rm -rf theme/img
+cp -r img theme/img
+
+rm theme.zip
+zip -r theme.zip theme
