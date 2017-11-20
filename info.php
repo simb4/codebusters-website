@@ -110,10 +110,6 @@
 <?php include 'test.php'; ?>
 <?php include 'header.php'; ?>
 
-    <div class="to-top">
-      <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow-up.png" alt=""></img></a>
-    </div>
-
     <!-- ### -->
     <div class="container">
       <div class="row">
