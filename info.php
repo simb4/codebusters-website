@@ -1,7 +1,4 @@
 <?php
-  function get_template_directory_uri() {
-    return '.';
-  }
   class member{
     public $name;
     public $status;
@@ -110,57 +107,14 @@
   $t20->description = '';
   $memberList = array($t1, $t2, $t3, $t4, $t5, $t6, $t8, $t9, $t10, $t11, $t12, $t13, $t14, $t15, $t16, $t17, $t18, $t19);
 ?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Codebusters</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i,700,800,900" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script src="https://api-maps.yandex.ru/2.1/?lang=en_US" type="text/javascript"></script>
-    <script type="text/javascript">
-      ymaps.ready(init);
-      var alaMap, dubMap;
-      function init(){
-          myMap = new ymaps.Map("map-almaty", {
-              center: [43.216406, 76.975192],
-              zoom: 16
-          });
-          dubMap = new ymaps.Map("map-dublin", {
-              center: [55.76, 37.64],
-              zoom: 16
-          });
-      }
-    </script>
-  </head>
+<?php include 'test.php'; ?>
+<?php include 'header.php'; ?>
 
-  <body>
-  <div class="root">
-    <div class="container cb-header" id="top">
-      <div class="cb-logo">
-        <a href="index.php"><img class="fullwidth" src="<?php echo get_template_directory_uri(); ?>/img/cb-logo.svg" alt=""></img></a>
-      </div>
-      <div class="cb-logo-vert">
-        <a href="index.php"><img class="fullwidth" src="<?php echo get_template_directory_uri(); ?>/img/cb-logo-vert.svg" alt=""></img></a>
-      </div>
-      <div class="cb-navs">
-        <a class="cb-nav-item" href="works.php">WORKS</a>
-        <a class="cb-nav-item active" href="info.php">INFO</a>
-      </div>
-    </div>
     <div class="to-top">
       <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow-up.png" alt=""></img></a>
     </div>
+
+    <!-- ### -->
     <div class="container">
       <div class="row">
         <!--sidebar -->
@@ -539,108 +493,6 @@
         </div>
       </div>
     </div>
+    <!-- ### -->
 
-    <footer class="cb-footer" id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="cb-footer-section show-mobile">
-            <div class="cb-logo">
-              <a href="#"><img class="fullwidth" src="<?php echo get_template_directory_uri(); ?>/img/cb-logo.svg" alt=""></img></a>
-            </div>
-            <div class="cb-logo-vert">
-              <a href="#"><img class="fullwidth" src="<?php echo get_template_directory_uri(); ?>/img/cb-logo-vert.svg" alt=""></img></a>
-            </div>
-          </div>
-          <div class="cb-footer-section">
-            <p class="contact-city-text">Almaty</p>
-            <div class="contact-hint-text">+7 777 777 77 77</div>
-            <div class="contact-hint-text">Kazakhstan, Almaty, Naymanbayev St, 56</div>
-            <div class="contact-button">
-            <button type="button">Get in Touch</button></div>
-          </div>
-          <div class="cb-footer-section">
-            <p class="contact-city-text">Dublin</p>
-            <div class="contact-hint-text">+56 777 77 77</div>
-            <div class="contact-hint-text">Ireland, Dublin, Some province, 115/7</div>
-            <div class="contact-button">
-            <button type="button">Get in Touch</button></div>
-          </div>
-          <div class="cb-footer-section mobile-only">
-            <div class="contact-button"><button type="button">Contact us</button></div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <script>
-      // Cache selectors
-      var topMenu = $("#sidebar"),
-          // All list items
-          menuItems = topMenu.find(".cb-sidebar-section a"),
-          // Anchors corresponding to menu items
-          scrollItems = menuItems.map(function(){
-            var item = $($(this).attr("href"));
-            if (item.length) { return item; }
-          });
-      function sidebar_relocate() {
-          var window_top = $(window).scrollTop();
-          var window_height = $(window).height();
-          var window_bot = window_top + window_height;
-
-          var div_top = $('#sidebar-anchor').offset().top;
-          var div_height = $('#sidebar').height();
-
-          var footer_top = $('#footer').offset().top + Math.max(window_height - div_height, 0);
-          if (window_top > div_top) {
-              if (window_bot >= footer_top) {
-                $('#sidebar').removeClass('stick');
-                $('#sidebar').addClass('at-bottom');
-              }
-              else {
-                $('#sidebar').addClass('stick');
-                $('#sidebar').removeClass('at-bottom');
-              }
-          } else {
-            $('#sidebar').removeClass('at-bottom');
-              $('#sidebar').removeClass('stick');
-          }
-          // Get id of current scroll item
-          var cur = scrollItems.map(function(){
-           if ($(this).offset().top <= window_top + window_height/2)
-             return this;
-          });
-          // Get the id of the current element
-          var id = 'about';
-          if (cur && cur.length) id = cur[cur.length-1][0].id;
-          // Set/remove active class
-          menuItems
-           .parent().removeClass("active")
-           .end().filter("[href='#"+id+"']").parent().addClass("active");
-      }
-      $(function () {
-          $(window).scroll(sidebar_relocate);
-          sidebar_relocate();
-      });
-      $(document).on('click', 'a[href^="#"]', function (event) {
-          event.preventDefault();
-          var href = $.attr(this, 'href');
-          $('.cb-sidebar-section a').removeClass('active');
-          console.log($('a[href="'+href+'"]')[0]);
-          $('a[href="'+href+'"]').addClass('active');
-          $('html, body').animate({
-              scrollTop: $($.attr(this, 'href')).offset().top
-          }, 500, function () {
-              window.location.hash = href;
-          });
-      });
-    </script>
-  </div>
-  </body>
-</html>
+<?php include 'footer.php'; ?>
