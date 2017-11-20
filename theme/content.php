@@ -25,15 +25,14 @@
   <div class="project-image-slider">
     <div class="tab-content text-right">
       <div role="tabpanel" class="tab-pane fade in active" id="jobigo">
-        <img src="<?php echo get_template_directory_uri();?>/img/projects/jobigo.jpg" alt="JobiGo app" />
+        <img src="<?php echo get_template_directory_uri();?>/img/projects/jobigo-page.jpg" alt="JobiGo app">
       </div>
       <div role="tabpanel" class="tab-pane fade" id="oos">
-        <img src="<?php echo get_template_directory_uri();?>/img/projects/oos.jpg" alt="OOS Form app" />
+        <img src="<?php echo get_template_directory_uri();?>/img/projects/jti-page.jpg" alt="OOS Form app">
       </div>
       <div role="tabpanel" class="tab-pane fade" id="buro">
-        <img src="<?php echo get_template_directory_uri();?>/img/projects/buro.jpg" alt="Buro Interiors" />
+        <img src="<?php echo get_template_directory_uri();?>/img/projects/buro-page.jpg" alt="Buro Interiors">
       </div>
     </div>
   </div>
 </div>
-
