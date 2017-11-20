@@ -1,9 +1,10 @@
 <?php get_header(); ?>
 <?php include 'const.php'; ?>
 <?php 
-if ($_SERVER['REQUEST_URI'] == '/works') {
+$url = $_SERVER['REQUEST_URI'];
+if ($url == '/works' || $url == '/works/') {
 	get_template_part( 'works', get_post_format() );		
-} else if ($_SERVER['REQUEST_URI'] == '/info') {
+} else if (if ($url == '/info' || $url == '/info/') {) {
 	get_template_part( 'info', get_post_format() );		
 } else {
 	get_template_part( 'content', get_post_format() );
