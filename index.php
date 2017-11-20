@@ -2,6 +2,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <?php
+      function get_template_directory_uri() {
+        return '.';
+      }
+    ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,10 +38,10 @@
   <div class="root">
     <div class="container cb-header" id="top">
       <div class="cb-logo">
-        <a href="index.php"><img class="fullwidth" src="img/cb-logo.svg" alt=""></img></a>
+        <a href="index.php"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.svg" alt=""></img></a>
       </div>
       <div class="cb-logo-vert">
-        <a href="index.php"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
+        <a href="index.php"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo-vert.svg" alt=""></img></a>
       </div>
       <div class="cb-navs">
         <a class="cb-nav-item" href="works.php">WORKS</a>
@@ -44,7 +49,7 @@
       </div>
     </div>
     <div class="to-top">
-      <a href="#top"><img src="img/arrow-up.png" alt=""></img></a>
+      <a href="#top"><img src="<?php echo get_template_directory_uri();?>/img/arrow-up.png" alt=""></img></a>
     </div>
     <div class="container">
       <!-- main slider -->
@@ -73,13 +78,13 @@
       <div class="project-image-slider">
         <div class="tab-content text-right">
           <div role="tabpanel" class="tab-pane fade in active" id="jobigo">
-            <img src="img/projects/jobigo.jpg" alt="JobiGo app">
+            <img src="<?php echo get_template_directory_uri();?>/img/projects/jobigo-page.jpg" alt="JobiGo app">
           </div>
           <div role="tabpanel" class="tab-pane fade" id="oos">
-            <img src="img/projects/oos.jpg" alt="OOS Form app">
+            <img src="<?php echo get_template_directory_uri();?>/img/projects/jti-page.jpg" alt="OOS Form app">
           </div>
           <div role="tabpanel" class="tab-pane fade" id="buro">
-            <img src="img/projects/buro.jpg" alt="Buro Interiors">
+            <img src="<?php echo get_template_directory_uri();?>/img/projects/buro-page.jpg" alt="Buro Interiors">
           </div>
         </div>
       </div>
@@ -90,10 +95,10 @@
         <div class="row">
           <div class="cb-footer-section show-mobile">
             <div class="cb-logo">
-              <a href="index.html"><img class="fullwidth" src="img/cb-logo.svg" alt=""></img></a>
+              <a href="index.html"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.svg" alt=""></img></a>
             </div>
             <div class="cb-logo-vert">
-              <a href="index.html"><img class="fullwidth" src="img/cb-logo-vert.svg" alt=""></img></a>
+              <a href="index.html"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo-vert.svg" alt=""></img></a>
             </div>
           </div>
           <div class="cb-footer-section">
