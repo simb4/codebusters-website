@@ -306,6 +306,19 @@
                     </div>
                   </div>
                 </div>
+                <div class="team-col col-xs-6 col-sm-4">   
+                  <div class="box cl8">   
+                    <div class="content">   
+                      <div class="logo">    
+                        <img src="img/clients/beeline.svg" />   
+                      </div>    
+                      <div class="box-name-title">    
+                        <div class="box-name">Beeline</div>   
+                        <div class="box-title">Kazakhstan</div>   
+                      </div>    
+                    </div>    
+                  </div>    
+                </div>
                 <div class="team-col col-xs-6 col-sm-4">
                   <div class="box cl9">
                     <div class="content">
