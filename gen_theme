@@ -13,5 +13,11 @@ python to_theme.py style.css theme/style.css
 rm -rf theme/img
 cp -r img theme/img
 
+rm -rf theme/css
+cp -r css theme/css
+
+rm -rf theme/js
+cp -r js theme/js
+
 rm theme.zip
 zip -r theme.zip theme

@@ -376,6 +376,21 @@
         </div>
       </div>
     </div>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=en_US" type="text/javascript"></script>
+    <script type="text/javascript">
+      ymaps.ready(init);
+      var alaMap, dubMap;
+      function init(){
+          myMap = new ymaps.Map("map-almaty", {
+              center: [43.216406, 76.975192],
+              zoom: 16
+          });
+          dubMap = new ymaps.Map("map-dublin", {
+              center: [55.76, 37.64],
+              zoom: 16
+          });
+      }
+    </script>
     <script type="text/javascript">
       // Cache selectors
       var topMenu = $("#sidebar"),
@@ -386,6 +401,10 @@
             var item = $($(this).attr("href"));
             if (item.length) { return item; }
           });
+      $(function () {
+          $(window).scroll(sidebar_relocate);
+          sidebar_relocate();
+      });
       function sidebar_relocate() {
           var window_top = $(window).scrollTop();
           var window_height = $(window).height();
@@ -421,10 +440,7 @@
            .parent().removeClass("active")
            .end().filter("[href='#"+id+"']").parent().addClass("active");
       }
-      $(function () {
-          $(window).scroll(sidebar_relocate);
-          sidebar_relocate();
-      });
+
       $(document).on('click', 'a[href^="#"]', function (event) {
           event.preventDefault();
           var href = $.attr(this, 'href');
