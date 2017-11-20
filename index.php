@@ -16,14 +16,13 @@
 
     <title>Codebusters</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:bold" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
     <link href="animate.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
