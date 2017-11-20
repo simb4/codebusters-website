@@ -1,4 +1,11 @@
 /*
+Theme Name: Codebusters-theme
+Author: Codebusters
+Description: codebusters portfolio website
+Version: 0.0.1
+Tags: codebusters, bootstrap, jquery
+*/
+/*
  * Globals
  */
 
@@ -1210,8 +1217,8 @@ div[class*="col-"].team-col {
 .project .row {
   padding-top: 48px;
 }
-.col-sm-6.right-column {
-  padding-left: 20px;
+.right-column.col-sm-6 {
+  padding-left: 24px;
 }
 .project .full-photo {
   position: absolute;
@@ -1252,11 +1259,24 @@ div[class*="col-"].team-col {
   opacity: 0.54;
 }
 
-#w-buro .left-column {
-  padding-right: 24px;
-}
 #w-jti {
   /*background: url(img/projects/jti-page.jpg) no-repeat center;*/
+}
+
+@media (max-width: 768px){
+  .project .row {
+    padding: 48px 0;
+  }
+  .right-column.col-sm-6 {
+    padding-left: 0;
+  }
+  #w-jti .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #w-jobigo {
+    background-color: #fff;
+  }
 }
 
 
