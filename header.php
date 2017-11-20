@@ -29,9 +29,9 @@
     <!-- Bootstrap core CSS -->
     <link href="<?php echo get_template_directory_uri();?>/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="<?php echo get_template_directory_uri();?>/css/style.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri();?>/css/animate.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri();?>/css/Montserrat.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri();?>/style.css" rel="stylesheet">
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
