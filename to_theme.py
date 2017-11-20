@@ -13,9 +13,9 @@ lines = source_file.readlines()
 started = False
 # print(lines)
 for i in lines:
-    if started and "###\n" not in i:
+    if started and "###" not in i:
         dest_file.write(i)
-    if "###\n" in i:
+    if "###" in i:
         started = not started
 
 source_file.close()

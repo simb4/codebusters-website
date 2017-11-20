@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<?php include 'const.php'; ?>
 <?php 
 if ($_SERVER['REQUEST_URI'] == '/works') {
 	get_template_part( 'works', get_post_format() );		

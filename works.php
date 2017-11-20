@@ -1,5 +1,4 @@
-
-<?php include 'test.php'; ?>
+<?php include 'const.php'; ?>
 <?php include 'header.php'; ?>
 
     <!-- ### -->

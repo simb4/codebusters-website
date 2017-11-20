@@ -1,3 +1,4 @@
+<!-- ### -->
 <?php
   //detect mobile: 
   $useragent=$_SERVER['HTTP_USER_AGENT'];
@@ -71,3 +72,4 @@
     <div class="to-top">
       <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow-up.png" alt=""></img></a>
     </div>
+<!-- ### -->

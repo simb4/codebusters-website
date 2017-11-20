@@ -1,5 +1,4 @@
-
-<?php include 'test.php'; ?>
+<?php include 'const.php'; ?>
 <?php include 'header.php'; ?>
 
     <!-- ### -->
@@ -41,6 +40,12 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+      $('#projects a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+      })
+    </script>
     <!-- ### -->
 
 <?php include 'footer.php'; ?>
