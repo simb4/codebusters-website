@@ -162,6 +162,7 @@
               <div class="main-section-title"> our team/ </div>
               <div class="members">
               <?php
+                echo count($memberList);
                 for ($i = 0; $i < count($memberList); $i++) {
                   echo '<div><div class="member">';
                     echo '<img src='.get_template_directory_uri().'/'.$memberList[$i]->photo.' alt="codebuster">';
