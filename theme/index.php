@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<?php include 'const.php'; ?>
 <?php 
 $url = $_SERVER['REQUEST_URI'];
 if ($url == '/works' || $url == '/works/') {
