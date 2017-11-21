@@ -21,3 +21,6 @@ cp -r js theme/js
 
 rm theme.zip
 zip -r theme.zip theme
+
+git add .
+git commit -m "theme build"
