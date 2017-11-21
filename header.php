@@ -54,7 +54,4 @@
         <a class="<?php echo $infoClass; ?>" href="/info">INFO</a>
       </div>
     </div>
-    <div class="to-top">
-      <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow-up.png" alt=""></img></a>
-    </div>
 <!-- ### -->

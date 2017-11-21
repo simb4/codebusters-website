@@ -51,7 +51,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/img/projects/buro-page.jpg" class="" alt="" />
             </div>
           </div>
-          <div class="right-column col-sm-6 col-xs-12 w-foreground">
+          <div class="right-column col-sm-6 w-foreground">
             <div class="name">
               Buro<br>Interiors
             </div>

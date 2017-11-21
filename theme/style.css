@@ -1076,9 +1076,10 @@ div[class*="col-"].team-col {
 
   /* footer */
   .cb-footer {
+    z-index: 1500;
+    height: 64px;
     background-color: #F7F7F7;
-    padding-top: 16px;
-    padding-bottom: 72px;
+    padding: 16px 0;
   }
   .cb-footer .row {
     /*display: block;*/
@@ -1312,5 +1313,15 @@ div[class*="col-"].team-col {
 .projects-list a:hover,
 .projects-list li.active a{color: rgba(0,0,0,1);text-decoration: none;}
 
-
+@media (max-width: 768px){
+  .tab-pane { height: calc(100vh - 128px); width: 100%; }
+  .project-image-slider img { height: 100%; width: 100%; object-fit: cover;}
+  .container.index-container { margin: 0; width: 100%; }
+  .project-links { left: 24px; }
+  .projects-list { text-shadow: 0px 2px 300px rgba(0,0,0,0.75);  }
+  .projects-list a { color: rgba(255,255,255,0.75); }
+  .projects-list li.active a { color: rgba(255,255,255,1); text-shadow: 0px 4px 4px rgba(0,0,0,0.25); }
+  .projects-list h1 { font-size: 24px;  }
+  .projects-list p { font-size: 14px; }
+}
 

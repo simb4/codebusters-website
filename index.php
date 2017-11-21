@@ -2,7 +2,7 @@
 <?php include 'header.php'; ?>
 
     <!-- ### -->
-    <div class="container">
+    <div class="container index-container">
       <!-- main slider -->
       <div class="project-links">
         <ul class="list-unstyled projects-list" role="tablist" id="projects">
