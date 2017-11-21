@@ -1264,20 +1264,41 @@ div[class*="col-"].team-col {
 }
 
 @media (max-width: 768px){
+  .project {
+    min-height: 210px;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 14px;
+  }
+  .project .container {
+    width: 100%;
+    margin: 0;
+  }
   .project .row {
-    padding: 48px 0;
-  }
-  .right-column.col-sm-6 {
-    padding-left: 0;
-  }
-  #w-jti .row {
+    padding: 0;
     display: flex;
-    flex-direction: column-reverse;
   }
-  #w-jobigo {
-    background-color: #fff;
+  .photo img {
+    height: 100%;
   }
-}
+  .name {
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: bold;
+  }
+  .title {
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  .w-background { position: absolute; left: 0; top: 0; bottom: 0; right: 0; }
+  div[class*="col-"].w-foreground { padding: 16px; background-color: rgba(0,0,0,0.54); width: 100%; height: 100%; }
+  .right-column.col-xs-8 { padding: 16px; }
+  .w-inverse .right-column.col-xs-4 { padding: 0px; }
+  .w-inverse .left-column.col-xs-8 { padding: 16px; }
+  .row.w-inverse { display: flex; flex-direction: row-reverse;}
+  #w-jobigo { background-color: #03A9F4; }
+  #w-jti { background-color: #00AB8E; }
+
 
 
 /*  =====================  */
