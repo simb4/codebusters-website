@@ -9,7 +9,7 @@ python to_theme.py footer.php theme/footer.php
 python to_theme.py const.php theme/const.php
 
 python to_theme.py style.css theme/style.css
-yuicompressor theme/style.css > theme/style.css
+yuicompressor theme/style.css > theme/styles.css
 yuicompressor theme/js/main.js > theme/js/main.js
 
 rm -rf theme/img
