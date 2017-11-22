@@ -1,3 +1,4 @@
+<?php include_once 'const.php'; ?>
 <!-- ### -->
     <footer class="cb-footer" id="footer">
       <div class="container">
@@ -31,6 +32,9 @@
       </div>
     </footer>
   </div>
+  <script src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
+  <script src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
   </body>
 </html>
 <!-- ### -->
