@@ -7,7 +7,7 @@
         <div class="row">
           <div class="left-column col-sm-6 col-xs-5">
             <div class="photo">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/projects/jobigo-page.jpg" class="" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/img/projects/jobigo-page-sm.jpg" class="" alt="" />
             </div>
           </div>
           <div class="right-column col-sm-6 col-xs-7">
@@ -41,7 +41,7 @@
           </div>
           <div class="right-column col-sm-6 col-xs-5">
             <div class="photo">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/projects/jti-page.jpg" class="" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/img/projects/jti-page-sm.jpg" class="" alt="" />
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@
         <div class="row">
           <div class="left-column col-sm-6 w-background">
             <div class="photo">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/projects/buro-page.jpg" class="" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/img/projects/buro-page-sm.jpg" class="" alt="" />
             </div>
           </div>
           <div class="right-column col-sm-6 w-foreground">
