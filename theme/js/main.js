@@ -1,4 +1,3 @@
-// ###
 // Cache selectors
 var topMenu = $("#sidebar"),
     // All list items
@@ -67,6 +66,4 @@ $('#projects a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
-
-// ###
 
