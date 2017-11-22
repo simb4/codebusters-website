@@ -34,7 +34,7 @@
   </div>
   <script src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
   <script src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
-  <script src="<?php echo get_template_directory_uri();?>/js/main.js"></script>
+  <script src="<?php echo get_template_directory_uri();?>/js/main.min.js"></script>
   </body>
 </html>
 <!-- ### -->

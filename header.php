@@ -28,7 +28,7 @@
     <!-- Custom styles for this template -->
     <!-- <link href="<?php echo get_template_directory_uri();?>/css/animate.css" rel="stylesheet"> -->
     <!-- <link href="<?php echo get_template_directory_uri();?>/css/montserrat.css" rel="stylesheet"> -->
-    <link href="<?php echo get_template_directory_uri();?>/style.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri();?>/style.min.css" rel="stylesheet">
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
