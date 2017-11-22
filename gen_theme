@@ -8,8 +8,11 @@ python to_theme.py header.php theme/header.php
 python to_theme.py footer.php theme/footer.php
 python to_theme.py const.php theme/const.php
 
+
 python to_theme.py style.css theme/style.css
 yuicompressor theme/style.css > theme/style.min.css
+
+python to_theme.py js/main.js theme/js/main.js
 yuicompressor theme/js/main.js > theme/js/main.min.js
 
 rm -rf theme/img
