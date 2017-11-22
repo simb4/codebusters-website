@@ -29,9 +29,6 @@
     <link href="<?php echo get_template_directory_uri();?>/style.css" rel="stylesheet">
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
-    <script src="<?php echo get_template_directory_uri();?>/js/bootstrap.min.js"></script>
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -42,7 +39,7 @@
   <body>
   <div class="root">
     <div class="container cb-header" id="top">
-      <div class="cb-logo">
+      <div class="cb-logo col-sm-2 col-xs-4">
         <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.svg" alt=""></img></a>
       </div>
       <div class="cb-logo-vert">
