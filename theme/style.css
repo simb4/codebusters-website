@@ -646,7 +646,7 @@ div[class*="col-"].team-col {
     right: 16px;
     top: calc(100% - 92px);
   }
-/*  #team .content:hover .box-name-title {
+  /*#team .content:hover .box-name-title {
     top: 16px;
   }*/
   #team .content .box-desc {
