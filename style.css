@@ -688,9 +688,9 @@ div[class*="col-"].team-col {
   right: 8px;
   bottom: 24px;
 }
-.team-col .box .content img{
+/*.team-col .box .content img{
   height: 100%;
-}
+}*/
 
 .team-col:nth-child(3n + 1) .box .content{
   /*padding-left: 0px;*/
@@ -958,83 +958,17 @@ div[class*="col-"].team-col {
   .member h1{
     font-size: 24px;
   }
+  #clients .content .box-name {
+    font-size: 28px;
+  }
 }
-@media (max-width: 900px){
+@media (max-width: 990px) {
   .member h1{
     font-size: 18px;
   }
   .member span{
     font-size: 12px;
   }
-}
-@media (max-width: 480px){
-  .members > div{
-    width: 50%;
-    height: auto;
-  }
-  .member {
-    bottom: 80px;
-    padding: 0;
-  }
-  .member img{
-    z-index: inherit;
-  }
-  .member h1{
-    font-size: 14px;
-  }
-  .member span{
-    font-size: 12px;
-  }
-  .members > div:after{
-    content: "";
-    display: block;
-    padding-bottom: calc(100% + 72px); 
-  }
-  .members > div:nth-child(2n) .member{
-    margin-right: 0;
-    margin-left: 8px;
-    margin-bottom: 0;
-  }
-  .members > div:nth-child(2n+1) .member{
-    margin-left: 0;
-    margin-right: 8px;
-    margin-bottom: 0;
-  }
-  .info-desktop{
-    display: none;
-  }
-  .info-mobile{
-    display: inherit;
-    position: absolute;
-    bottom: 16px;
-    left: 0;
-    background-color: #fff;
-    width: calc(100% - 8px);
-    height: 72px;
-    padding: 8px;
-  }
-  .members > div:nth-child(2n) .info-mobile{
-    margin-left: 8px;
-  }
-  .info-mobile h1{
-    font-size: 14px;
-    color: #000;
-    text-transform: none;
-    margin: 0;
-  }
-  .info-mobile span{
-    font-size: 12px;
-    color: rgba(0,0,0,.64);
-  }
-  /*partners*/
-  #team .team-col .box .content{
-    padding: 0;
-  }
-  #team .team-col .sdu{
-    padding: 0;
-  }
-}
-@media (max-width: 990px) {
   .cb-main {
     font-size: 14px;
   }
@@ -1060,6 +994,9 @@ div[class*="col-"].team-col {
   }
   .about3 {
     font-size: 18px;
+  }
+  #clients .content .box-name {
+    font-size: 20px;
   }
 }
 
@@ -1449,6 +1386,73 @@ div[class*="col-"].team-col {
     line-height: 15px;
     height: 32px;
     position: relative;
+  }
+}
+@media (max-width: 480px){
+  .members > div{
+    width: 50%;
+    height: auto;
+  }
+  .member {
+    bottom: 80px;
+    padding: 0;
+  }
+  .member img{
+    z-index: inherit;
+  }
+  .member h1{
+    font-size: 14px;
+  }
+  .member span{
+    font-size: 12px;
+  }
+  .members > div:after{
+    content: "";
+    display: block;
+    padding-bottom: calc(100% + 72px); 
+  }
+  .members > div:nth-child(2n) .member{
+    margin-right: 0;
+    margin-left: 8px;
+    margin-bottom: 0;
+  }
+  .members > div:nth-child(2n+1) .member{
+    margin-left: 0;
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
+  .info-desktop{
+    display: none;
+  }
+  .info-mobile{
+    display: inherit;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    background-color: #fff;
+    width: calc(100% - 8px);
+    height: 72px;
+    padding: 8px;
+  }
+  .members > div:nth-child(2n) .info-mobile{
+    margin-left: 8px;
+  }
+  .info-mobile h1{
+    font-size: 14px;
+    color: #000;
+    text-transform: none;
+    margin: 0;
+  }
+  .info-mobile span{
+    font-size: 12px;
+    color: rgba(0,0,0,.64);
+  }
+  /*partners*/
+  #team .team-col .box .content{
+    padding: 0;
+  }
+  #team .team-col .sdu{
+    padding: 0;
   }
 }
 
