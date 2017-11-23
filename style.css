@@ -896,10 +896,9 @@ div[class*="col-"].team-col {
   border-top: 1px solid #e5e5e5;
 }
 .cb-footer .row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  display: table;
   text-align: left;
+  width: 100%;
 }
 .cb-footer-section {
   display: inline-block;
@@ -927,16 +926,16 @@ div[class*="col-"].team-col {
   color: #808080;
 }
 .contact-button {
-  margin-top: 16px;
+  position: absolute;
+  bottom: 0;
 }
 .contact-button button{
+  display: inline-block;
   text-transform: uppercase;
-  float: left;
   background-color: #000000;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   border: none;
   font-size: 18px;
   line-height: 22px;
@@ -1363,7 +1362,8 @@ div[class*="col-"].team-col {
     padding: 16px 0;
   }
   .cb-footer .row {
-    /*display: block;*/
+    display: flex;
+    justify-content: space-between;
   }
 
   .cb-footer-section {
@@ -1377,8 +1377,11 @@ div[class*="col-"].team-col {
     width: 50%;
     padding: 0;
   }
+  .cb-footer-section.mobile-only {
+    display: flex;
+    justify-content: flex-end;
+  }
   .cb-footer .contact-button {
-    float: right;
     margin-top: 0;
   }
   .contact-button button {
