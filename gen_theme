@@ -17,14 +17,16 @@ cp -r css theme/css
 rm -rf theme/js
 cp -r js theme/js
 
-python to_theme.py style.css theme/style.css
+python to_theme.py style.min.css theme/style.css
 yuicompressor theme/style.css > theme/style.min.css
 
-python to_theme.py js/main.js theme/js/main.js
+touch theme/js/main.js
+python to_theme.py js/main.min.js theme/js/main.js
 yuicompressor theme/js/main.js > theme/js/main.min.js
+rm theme/js/main.js
 
 rm theme.zip
 zip -r theme.zip theme
 
-git add .
-git commit -m "theme build"
+# git add .
+# git commit -m "theme build"
