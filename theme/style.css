@@ -924,12 +924,11 @@ div[class*="col-"].team-col {
   line-height: 20px;
   color: #808080;
 }
-.contact-button {
+.cb-footer .contact-button {
   position: absolute;
   bottom: 0;
 }
-.contact-button button{
-  display: inline-block;
+button {
   text-transform: uppercase;
   background-color: #000000;
   color: #fff;
@@ -1566,7 +1565,7 @@ div[class*="col-"].team-col {
   min-height: 554px;
 }
 .project .row {
-  padding-top: 48px;
+  padding: 24px 0;
 }
 .right-column.col-sm-6 {
   padding-left: 24px;
@@ -1596,6 +1595,8 @@ div[class*="col-"].team-col {
   min-height: 80%;
   object-fit: cover;
 }
+.to-work { margin-top: 48px; }
+.android { margin-left: 16px; }
 
 #w-jobigo {
 }
@@ -1608,10 +1609,6 @@ div[class*="col-"].team-col {
 }
 #w-buro .desc {
   opacity: 0.54;
-}
-
-#w-jti {
-  /*background: url(img/projects/jti-page.jpg) no-repeat center;*/
 }
 
 @media (max-width: 768px){
@@ -1641,6 +1638,8 @@ div[class*="col-"].team-col {
     margin-bottom: 10px;
     opacity: 0.8;
   }
+  .to-work a { margin: 0 8px; }
+  .to-work img { width: 135px; }
   .w-background { position: absolute; left: 0; top: 0; bottom: 0; right: 0; }
   div[class*="col-"].w-foreground { padding: 16px; background-color: rgba(0,0,0,0.54); width: 100%; height: 100%; }
   .right-column.col-xs-7 { padding: 16px; }
