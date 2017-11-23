@@ -199,7 +199,7 @@
                   <div class="box openu">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partners-openu.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partners-openu.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">Almaty OpenU</div>
@@ -214,7 +214,7 @@
                   <div class="box kbtu">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partners-kbtu.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partners-kbtu.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">KBTU</div>
@@ -234,7 +234,7 @@
                   <div class="box cl1">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/power.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/power.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">Power Wifi</div>
@@ -247,7 +247,7 @@
                   <div class="box cl2">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/tech.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/tech.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">Tech Garden</div>
@@ -260,7 +260,7 @@
                   <div class="box cl3">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/jti.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/jti.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">JTI</div>
@@ -273,7 +273,7 @@
                   <div class="box cl5">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/kaztour.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/kaztour.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">Kaztour</div>
@@ -286,7 +286,7 @@
                   <div class="box cl6">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/incipient.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/incipient.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">Incipient</div>
@@ -299,7 +299,7 @@
                   <div class="box cl7">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/air.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/air.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">Air Astana</div>
@@ -312,7 +312,7 @@
                   <div class="box cl8">   
                     <div class="content">   
                       <div class="logo">    
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/beeline.svg" />   
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/beeline.png" />   
                       </div>    
                       <div class="box-name-title">    
                         <div class="box-name">Beeline</div>   
@@ -325,7 +325,7 @@
                   <div class="box cl9">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/forbes.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/forbes.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">Forbes</div>
@@ -338,7 +338,7 @@
                   <div class="box cl10">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/verigram.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/clients/verigram.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">Verigram</div>
