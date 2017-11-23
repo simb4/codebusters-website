@@ -179,7 +179,7 @@
             </div>
 
             <!-- partners -->
-<!--             <div class="cb-main-section" id="partners">
+            <div class="cb-main-section" id="partners">
               <div class="main-section-title"> our partners/ </div>
               <div class="team-grid">
                 <div class="team-col col-xs-6">
@@ -225,9 +225,9 @@
                 </div>
               </div>
             </div>
- -->
+
             <!-- clients -->
- <!--            <div class="cb-main-section" id="clients">
+            <div class="cb-main-section" id="clients">
               <div class="main-section-title"> our clients/ </div>
               <div class="team-grid">
                 <div class="team-col col-xs-6 col-sm-4">
@@ -348,7 +348,7 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
             <!-- contacts -->
             <div class="cb-main-section" id="contacts">
               <div class="main-section-title"> our contacts/ </div>
