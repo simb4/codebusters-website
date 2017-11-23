@@ -43,10 +43,10 @@
   <div class="root">
     <div class="container cb-header" id="top">
       <div class="cb-logo col-sm-2 col-xs-4">
-        <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.svg" alt=""></img></a>
+        <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.png" alt=""></img></a>
       </div>
       <div class="cb-logo-vert">
-        <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo-vert.svg" alt=""></img></a>
+        <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo-vert.png" alt=""></img></a>
       </div>
       <div class="cb-navs">
         <a class="<?php echo $worksClass; ?>" href="/works">WORKS</a>

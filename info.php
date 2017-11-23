@@ -186,7 +186,7 @@
                   <div class="box sdu">
                     <div class="content">
                       <div class="logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partners-sdu.svg" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partners-sdu.png" />
                       </div>
                       <div class="box-name-title">
                         <div class="box-name">SDU</div>
