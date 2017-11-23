@@ -39,11 +39,11 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nibh ac eros ullamcorper pulvinar. Aliquam vitae magna vitae turpis feugiat bibendum at vitae metus. Aenean ac eros odio. Pellentesque posuere, mi vitae bibendum accumsan, orci quam auctor eros, id rhoncus elit erat a nulla. Donec ac tortor vitae odio sodales convallis vel in sem. Nunc luctus pharetra lectus, a feugiat mauris vehicula ut. Ut lobortis commodo arcu ac sodales.
             </div>
             <div class="to-work">
-              <a href="https://itunes.apple.com/kz/app/oos-form/id1221829411?mt=8">
-                <img src="img/ios-badge.svg" alt="ios" />
+              <a href="https://itunes.apple.com/kz/app/oos-form/id1221829411?mt=8" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/ios-badge.svg" alt="ios" />
               </a>
-              <a class="android" href="https://play.google.com/store/apps/details?id=com.solf.jtiapp">
-                <img src="img/android-badge.svg" alt="android" />
+              <a class="android" href="https://play.google.com/store/apps/details?id=com.solf.jtiapp" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/android-badge.svg" alt="android" />
               </a>
             </div>
           </div>
@@ -75,7 +75,7 @@
             </div>
             <div class="to-work">
                 <div class="contact-button">
-                  <a href="https://buro-interiors.com">
+                  <a href="https://buro-interiors.com" target="_blank" alt="buro">
                     <button type="button">Open website</button>
                   </a>
                 </div>
