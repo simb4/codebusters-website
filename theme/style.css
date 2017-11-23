@@ -1663,15 +1663,24 @@ button {
 .projects-list li.active a{color: rgba(0,0,0,1);text-decoration: none;}
 .tab-pane { width: 100%; }
 .tab-pane img {  padding-left: 16.6666666%; width: 100% }
-.tab-content>.tab-pane{display:none}
+.tab-content>.tab-pane{display: none;}
 .tab-content>.active{display:block}
 .fade {
-    opacity: 0;
-    -webkit-transition: opacity .15s linear;
-    -o-transition: opacity .15s linear;
-    transition: opacity .15s linear;
+  opacity: 0;
+  -webkit-animation: display-none-transition 1s both;
+  animation: display-none-transition 1s both;
 }
 .fade.in { opacity: 1; }
+@-webkit-keyframes display-none-transition {
+  0% {
+    opacity: 0;
+  }
+}
+@keyframes display-none-transition {
+  0% {
+    opacity: 0;
+  }
+}
 @media (max-width: 768px){
   .tab-pane { height: calc(100vh - 128px); width: 100%; }
   .tab-pane img { height: 100%; object-fit: cover; width: 100%; padding-left: 0; }
