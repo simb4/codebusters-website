@@ -3,10 +3,10 @@
         <div class="row">
           <div class="cb-footer-section show-mobile">
             <div class="cb-logo">
-              <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.svg" alt=""></img></a>
+              <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo.png" alt=""></img></a>
             </div>
             <div class="cb-logo-vert">
-              <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo-vert.svg" alt=""></img></a>
+              <a href="/"><img class="fullwidth" src="<?php echo get_template_directory_uri();?>/img/cb-logo-vert.png" alt=""></img></a>
             </div>
           </div>
           <div class="cb-footer-section">
