@@ -398,14 +398,33 @@
       ymaps.ready(init);
       var alaMap, dubMap;
       function init(){
-          myMap = new ymaps.Map("map-almaty", {
-              center: [43.216406, 76.975192],
+          alaMap = new ymaps.Map("map-almaty", {
+              center: [43.216175, 76.974842],
               zoom: 16
           });
+          var placemark = new ymaps.Placemark([43.216186, 76.975042], {
+              iconContent: ""
+          }, {
+              preset: "twirl#yellowStretchyIcon",
+              balloonCloseButton: false,
+              hideIconOnBalloonOpen: false
+          });
+          alaMap.geoObjects.add(placemark);
+
           dubMap = new ymaps.Map("map-dublin", {
               center: [53.3460525,-6.256628],
               zoom: 16
           });
+          var placemark = new ymaps.Placemark([53.346052, -6.256628], {
+              iconContent: ""
+          }, {
+              preset: "twirl#yellowStretchyIcon",
+              balloonCloseButton: false,
+              hideIconOnBalloonOpen: false
+          });
+          dubMap.geoObjects.add(placemark);
+
+          
       }
     </script>
 
