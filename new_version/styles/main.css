@@ -105,6 +105,27 @@ footer .to-top i{
 .last-project-section .more-link{color: #333;font-size: 14px;text-decoration: none;}
 .last-project-section .more-link:hover{text-decoration: underline;}
 .last-project-section .more-link i{font-size: 16px;font-weight: 600;margin-top: 20px}
+
+.team-section{position: relative;padding: 80px 16px;}
+.team-section .team-name{
+  font-size: 48px;
+  font-weight: 600;
+  position: absolute;
+  top: 104px;
+  left: 48px;
+  z-index: 2;
+}
+.team-section .team-img{
+  position: absolute;
+  top: 80px;
+  left: 135px;
+  z-index: 1;
+}
+.team-section .team-name span{color: #EB5757}
+.team-section .team-info-block {position: relative;z-index: 3}
+.team-section .team-intro-block {margin-top: 80px;font-weight: 500}
+.team-section .team-main-points {color: #EB5757}
+
 .projects-row {margin: 16px 8px;}
 .project-box {position: relative;}
 .project-info {position: absolute;bottom: 8px;left: 8px; color: #e0e0e0}
@@ -154,3 +175,4 @@ body.dark-mode {
 }
 .dark-mode .last-project-section .more-link{color: #f2f2f2;}
 .dark-mode .address-block a {color: #EB5757}
+.dark-mode .lead-text{text-transform: uppercase;color: #E0E0E0;}
